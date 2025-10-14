@@ -19,7 +19,7 @@ public class PlayerMovement : MonoBehaviour
     //linearDrag é o que faz o personagem desacelerar antes de parar
     private float horizontalDirection;
     private bool changingDirection => (rb.linearVelocityX > 0f && horizontalDirection < 0f) || (rb.linearVelocityX < 0f && horizontalDirection > 0f);
-    private bool facingRight = true;
+    public bool facingRight = true;
 
     [Header("Jump Variables")]
     [SerializeField] private float jumpForce = 12f;
@@ -34,12 +34,19 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Collision Variables")]
     [SerializeField] private float groundRaycastLenght;
+
+    private CameraFollowOBJECT cameraFollowObject;
+
+    [Header("Camera Variables")]
+    [SerializeField] private GameObject cameraFollowGO;
+
     private bool onGround;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        cameraFollowObject = cameraFollowGO.GetComponent<CameraFollowOBJECT>();
     }
 
     private void Update()
@@ -87,6 +94,10 @@ public class PlayerMovement : MonoBehaviour
             hangTimeCounter -= Time.deltaTime;
         }
         if (canJump) Jump();
+        if (horizontalDirection > 0f || horizontalDirection < 0f)
+        {
+            FlipCheck();
+        }
         
     }
 
@@ -149,10 +160,36 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void FlipCheck()
+    {
+        if (horizontalDirection < 0f && facingRight)
+        {
+            Flip();
+        }
+        else if (horizontalDirection > 0f && !facingRight)
+        { 
+            Flip(); 
+        }
+    }
     void Flip()
     {
-        facingRight = !facingRight;
-        transform.Rotate(0f, 180f, 0f);
+        if (facingRight)
+        {
+            Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
+            transform.rotation = Quaternion.Euler(rotator);
+            facingRight = !facingRight;
+
+            cameraFollowObject.CallTurn();
+        }
+
+        else
+        { 
+            Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
+            transform.rotation = Quaternion.Euler(rotator);
+            facingRight = !facingRight;
+
+            cameraFollowObject.CallTurn();
+        }
     }
 
     private void CheckColissions()
