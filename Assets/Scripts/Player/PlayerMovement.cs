@@ -10,7 +10,8 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
 
     [Header("Layer Masks")]
-    [SerializeField]private LayerMask groundLayer;
+    [SerializeField] private LayerMask groundLayer;
+    [SerializeField] private LayerMask enemyLayer;
 
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 70f;
@@ -28,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float lowJumpFallMultiplier = 5f;
     [SerializeField] private float hangTime = .1f;
     [SerializeField] private float jumpBufferLength = .1f;
+    private bool onGround;
     private float hangTimeCounter;
     private float jumpBufferCounter;
     private bool canJump => jumpBufferCounter > 0f && hangTimeCounter > 0f;
@@ -35,12 +37,15 @@ public class PlayerMovement : MonoBehaviour
     [Header("Collision Variables")]
     [SerializeField] private float groundRaycastLenght;
 
-    private CameraFollowOBJECT cameraFollowObject;
-
     [Header("Camera Variables")]
+    private CameraFollowOBJECT cameraFollowObject;
     [SerializeField] private GameObject cameraFollowGO;
 
-    private bool onGround;
+    [Header("Knockback Variables")]
+    public float knockBackForce;
+    public float knockBackCounter;
+    public float knockBackTotalTime;
+    public bool knockFromRight;
 
     private void Start()
     {
@@ -73,14 +78,29 @@ public class PlayerMovement : MonoBehaviour
             Flip();
         }
 
-        Debug.Log($"LinearVelocityX: {rb.linearVelocityX} | Damping: {rb.linearDamping}");
+        //Debug.Log($"LinearVelocityX: {rb.linearVelocityX} | Damping: {rb.linearDamping}");
 
     }
 
     private void FixedUpdate()
     {
         CheckColissions();
-        MoveCharacter();
+        if (knockBackCounter <= 0)
+        {
+            MoveCharacter();
+        }
+        else
+        {
+            if (knockFromRight)
+            {
+                rb.linearVelocity = new Vector2(-knockBackForce, knockBackForce);
+            }
+            else
+            {
+                rb.linearVelocity = new Vector2(knockBackForce, knockBackForce);
+            }
+            knockBackCounter -= Time.deltaTime;
+        }
 
         if (onGround)
         {
@@ -194,7 +214,10 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckColissions()
     {
-        onGround = Physics2D.Raycast(transform.position, Vector2.down, groundRaycastLenght, groundLayer);
+        bool hitGround = Physics2D.Raycast(transform.position, Vector2.down, groundRaycastLenght, groundLayer);
+        bool hitEnemy  = Physics2D.Raycast(transform.position, Vector2.down, groundRaycastLenght, enemyLayer);
+
+        onGround = hitGround || hitEnemy;
 
         //Desenha o Raycast que verifica colisão com a layer do chão
     }
