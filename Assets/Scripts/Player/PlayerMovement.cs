@@ -1,6 +1,6 @@
 using System;
 using Unity.VisualScripting;
-using UnityEditor.Tilemaps;
+using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -29,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float lowJumpFallMultiplier = 5f;
     [SerializeField] private float hangTime = .1f;
     [SerializeField] private float jumpBufferLength = .1f;
-    private bool onGround;
+    public bool onGround;
     private float hangTimeCounter;
     private float jumpBufferCounter;
     private bool canJump => jumpBufferCounter > 0f && hangTimeCounter > 0f;
@@ -74,11 +74,16 @@ public class PlayerMovement : MonoBehaviour
             Flip();
         }
         else if (horizontalDirection > 0f && !facingRight)
-        { 
+        {
             Flip();
         }
-
-        //Debug.Log($"LinearVelocityX: {rb.linearVelocityX} | Damping: {rb.linearDamping}");
+        if (rb.linearVelocity.y < -0.1f && !onGround) // Usando uma pequena margem para evitar falsos positivos
+        {
+            //Animação de queda
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isFalling", true);
+        }
+        
 
     }
 
@@ -106,6 +111,10 @@ public class PlayerMovement : MonoBehaviour
         {
             ApplyGroundLinearDrag();
             hangTimeCounter = hangTime;
+
+            //Animação
+            anim.SetBool("isJumping", false);
+            anim.SetBool("isFalling", false);
         }
         else
         {
@@ -162,6 +171,10 @@ public class PlayerMovement : MonoBehaviour
         rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         hangTimeCounter = 0f;
         jumpBufferCounter = 0f;
+
+        //Animação
+        anim.SetBool("isJumping", true);
+        anim.SetBool("isFalling", false);
     }
 
     private void FallMultiplier()

@@ -1,9 +1,13 @@
 using UnityEngine;
+using System.Collections;
+
 
 public class ProjectileLaunch : MonoBehaviour
 {
     public GameObject projectilePrefab;
     public Transform launchPoint;
+    private Animator anim;
+   // public PlayerMovement playerMovement;
 
     public float shootTime;
     public float shootCounter;
@@ -11,6 +15,7 @@ public class ProjectileLaunch : MonoBehaviour
     void Start()
     {
         shootCounter = shootTime;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -18,10 +23,19 @@ public class ProjectileLaunch : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && shootCounter <= 0)
         {
-            Debug.Log("Atirei!");
             Instantiate(projectilePrefab, launchPoint.position, Quaternion.identity);
             shootCounter = shootTime;
+
+            //Animação
+            anim.SetTrigger("isShooting");
         }
         shootCounter -= Time.deltaTime;
+    }
+
+    private IEnumerator ResetShootAnimation()
+    {
+        yield return new WaitForSeconds(0.2f); // tempo da animação de tiro
+        anim.SetBool("isShooting", false);
+        Debug.Log("Foi");
     }
 }
