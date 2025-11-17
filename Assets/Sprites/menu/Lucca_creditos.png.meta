@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: a5e75527a7aca2e409eb2aa503e5b716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1394296980966174953
+    second: Lucca_creditos_0
+  - first:
+      213: 6997593359292203012
+    second: Lucca_creditos_1
+  - first:
+      213: 9166735376058039563
+    second: Lucca_creditos_2
+  - first:
+      213: 8199107509541322995
+    second: Lucca_creditos_3
+  - first:
+      213: 3080431852443248647
+    second: Lucca_creditos_4
+  - first:
+      213: 2044998827568519465
+    second: Lucca_creditos_5
+  - first:
+      213: 2168576888075143926
+    second: Lucca_creditos_6
+  - first:
+      213: 3292176264716367966
+    second: Lucca_creditos_7
+  - first:
+      213: 4427504442222143430
+    second: Lucca_creditos_8
+  - first:
+      213: -239941203182685389
+    second: Lucca_creditos_9
+  - first:
+      213: 228482066796954198
+    second: Lucca_creditos_10
+  - first:
+      213: 5113575132607621968
+    second: Lucca_creditos_11
+  - first:
+      213: 437978848710366025
+    second: Lucca_creditos_12
+  - first:
+      213: 7314145836697691968
+    second: Lucca_creditos_13
+  - first:
+      213: 46675079294253349
+    second: Lucca_creditos_14
+  - first:
+      213: -248359127013214957
+    second: Lucca_creditos_15
+  - first:
+      213: -4850659927451697290
+    second: Lucca_creditos_16
+  - first:
+      213: 2285973150435582441
+    second: Lucca_creditos_17
+  - first:
+      213: 665476232185202390
+    second: Lucca_creditos_18
+  - first:
+      213: 7725387474598973635
+    second: Lucca_creditos_19
+  - first:
+      213: 3881352134421496115
+    second: Lucca_creditos_20
+  - first:
+      213: -5985909557738368014
+    second: Lucca_creditos_21
+  - first:
+      213: -9156761503857548662
+    second: Lucca_creditos_22
+  - first:
+      213: 5540239075111084283
+    second: Lucca_creditos_23
+  - first:
+      213: -5543247904653224836
+    second: Lucca_creditos_24
+  - first:
+      213: -263987166478429968
+    second: Lucca_creditos_25
+  - first:
+      213: 3631197489570212439
+    second: Lucca_creditos_26
+  - first:
+      213: 8547540378730329851
+    second: Lucca_creditos_27
+  - first:
+      213: 8660026572847559038
+    second: Lucca_creditos_28
+  - first:
+      213: -5719224012654234919
+    second: Lucca_creditos_29
+  - first:
+      213: -2548940759114599916
+    second: Lucca_creditos_30
+  - first:
+      213: 1633252224275968035
+    second: Lucca_creditos_31
+  - first:
+      213: -2878053891736939341
+    second: Lucca_creditos_32
+  - first:
+      213: -835580099505246709
+    second: Lucca_creditos_33
+  - first:
+      213: -6899247972291098675
+    second: Lucca_creditos_34
+  - first:
+      213: 8496029417719534148
+    second: Lucca_creditos_35
+  - first:
+      213: 1754124562667831765
+    second: Lucca_creditos_36
+  - first:
+      213: 2848172214709949674
+    second: Lucca_creditos_37
+  - first:
+      213: 5022657901526196590
+    second: Lucca_creditos_38
+  - first:
+      213: 8086867345119071204
+    second: Lucca_creditos_39
+  - first:
+      213: 9184833263546788109
+    second: Lucca_creditos_40
+  - first:
+      213: 1676806509769269156
+    second: Lucca_creditos_41
+  - first:
+      213: -5154078483870432894
+    second: Lucca_creditos_42
+  - first:
+      213: -899122538365465959
+    second: Lucca_creditos_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lucca_creditos_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e073e587b9895310800000000000000
+      internalID: 1394296980966174953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_1
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 211
+        width: 824
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4008e3fd5127c1160800000000000000
+      internalID: 6997593359292203012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0d32ffc149c63f70800000000000000
+      internalID: 9166735376058039563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f0c275d6d419c170800000000000000
+      internalID: 8199107509541322995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_4
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708adafe274efba20800000000000000
+      internalID: 3080431852443248647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929df4b499b416c10800000000000000
+      internalID: 2044998827568519465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_6
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa47d9a035581e10800000000000000
+      internalID: 2168576888075143926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e58346cbed820bd20800000000000000
+      internalID: 3292176264716367966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_8
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c76d1015d7a17d30800000000000000
+      internalID: 4427504442222143430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_9
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 333f0593fbe8bacf0800000000000000
+      internalID: -239941203182685389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_10
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 215
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652cafcaa3bbb2300800000000000000
+      internalID: 228482066796954198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_11
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b295f7d7117f640800000000000000
+      internalID: 5113575132607621968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_12
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 215
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94314804173041600800000000000000
+      internalID: 437978848710366025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_13
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 215
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047a4cfe2e0118560800000000000000
+      internalID: 7314145836697691968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5297231ccb2d5a000800000000000000
+      internalID: 46675079294253349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 315b6a990b6ad8cf0800000000000000
+      internalID: -248359127013214957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_16
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 258
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ff402fe7efeacb0800000000000000
+      internalID: -4850659927451697290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e12bcdf77869bf10800000000000000
+      internalID: 2285973150435582441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_18
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d64dd97b1f3c3900800000000000000
+      internalID: 665476232185202390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_19
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c059bf2af6163b60800000000000000
+      internalID: 7725387474598973635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_20
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 331c564b3355dd530800000000000000
+      internalID: 3881352134421496115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_21
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f39361d8f6cdeca0800000000000000
+      internalID: -5985909557738368014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_22
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8269954de5ace080800000000000000
+      internalID: -9156761503857548662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_23
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf02cbad512e2ec40800000000000000
+      internalID: 5540239075111084283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_24
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74573d666d6213b0800000000000000
+      internalID: -5543247904653224836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f09acc1211265cf0800000000000000
+      internalID: -263987166478429968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_26
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a6f1bb0ea946230800000000000000
+      internalID: 3631197489570212439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_27
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6778900b6fe9670800000000000000
+      internalID: 8547540378730329851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_28
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e71b50409489e2870800000000000000
+      internalID: 8660026572847559038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_29
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d23cdeef0c31a0b0800000000000000
+      internalID: -5719224012654234919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_30
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 412b57b62e750acd0800000000000000
+      internalID: -2548940759114599916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_31
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320f590ae3a7aa610800000000000000
+      internalID: 1633252224275968035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_32
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4d69aeb391f08d0800000000000000
+      internalID: -2878053891736939341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_33
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eaa9b935c6764f0800000000000000
+      internalID: -835580099505246709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_34
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc74142e582f040a0800000000000000
+      internalID: -6899247972291098675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_35
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4421174ddb5f7e570800000000000000
+      internalID: 8496029417719534148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_36
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d18a99fef6e75810800000000000000
+      internalID: 1754124562667831765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_37
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae49cecf98db68720800000000000000
+      internalID: 2848172214709949674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_38
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6127c010c014b540800000000000000
+      internalID: 5022657901526196590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_39
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb478b11035a3070800000000000000
+      internalID: 8086867345119071204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_40
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d09e5ea9035177f70800000000000000
+      internalID: 9184833263546788109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_41
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4af1cd3f2a6354710800000000000000
+      internalID: 1676806509769269156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_42
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2814b682de80978b0800000000000000
+      internalID: -5154078483870432894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lucca_creditos_43
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99acd2ba0dca583f0800000000000000
+      internalID: -899122538365465959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 94edfdf419c73774a8623f06df77a585
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Lucca_creditos_0: 1394296980966174953
+      Lucca_creditos_1: 6997593359292203012
+      Lucca_creditos_10: 228482066796954198
+      Lucca_creditos_11: 5113575132607621968
+      Lucca_creditos_12: 437978848710366025
+      Lucca_creditos_13: 7314145836697691968
+      Lucca_creditos_14: 46675079294253349
+      Lucca_creditos_15: -248359127013214957
+      Lucca_creditos_16: -4850659927451697290
+      Lucca_creditos_17: 2285973150435582441
+      Lucca_creditos_18: 665476232185202390
+      Lucca_creditos_19: 7725387474598973635
+      Lucca_creditos_2: 9166735376058039563
+      Lucca_creditos_20: 3881352134421496115
+      Lucca_creditos_21: -5985909557738368014
+      Lucca_creditos_22: -9156761503857548662
+      Lucca_creditos_23: 5540239075111084283
+      Lucca_creditos_24: -5543247904653224836
+      Lucca_creditos_25: -263987166478429968
+      Lucca_creditos_26: 3631197489570212439
+      Lucca_creditos_27: 8547540378730329851
+      Lucca_creditos_28: 8660026572847559038
+      Lucca_creditos_29: -5719224012654234919
+      Lucca_creditos_3: 8199107509541322995
+      Lucca_creditos_30: -2548940759114599916
+      Lucca_creditos_31: 1633252224275968035
+      Lucca_creditos_32: -2878053891736939341
+      Lucca_creditos_33: -835580099505246709
+      Lucca_creditos_34: -6899247972291098675
+      Lucca_creditos_35: 8496029417719534148
+      Lucca_creditos_36: 1754124562667831765
+      Lucca_creditos_37: 2848172214709949674
+      Lucca_creditos_38: 5022657901526196590
+      Lucca_creditos_39: 8086867345119071204
+      Lucca_creditos_4: 3080431852443248647
+      Lucca_creditos_40: 9184833263546788109
+      Lucca_creditos_41: 1676806509769269156
+      Lucca_creditos_42: -5154078483870432894
+      Lucca_creditos_43: -899122538365465959
+      Lucca_creditos_5: 2044998827568519465
+      Lucca_creditos_6: 2168576888075143926
+      Lucca_creditos_7: 3292176264716367966
+      Lucca_creditos_8: 4427504442222143430
+      Lucca_creditos_9: -239941203182685389
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

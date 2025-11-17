@@ -1,0 +1,1274 @@
+fileFormatVersion: 2
+guid: bbfc6292a36792143890d75180246522
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8349158036421968884
+    second: Pedro_creditos_0
+  - first:
+      213: 5154498297425141848
+    second: Pedro_creditos_1
+  - first:
+      213: -5131923531694469296
+    second: Pedro_creditos_2
+  - first:
+      213: 6233447538779908253
+    second: Pedro_creditos_3
+  - first:
+      213: -4099073216347699864
+    second: Pedro_creditos_4
+  - first:
+      213: 8374719633324049383
+    second: Pedro_creditos_5
+  - first:
+      213: 3571707373750908245
+    second: Pedro_creditos_6
+  - first:
+      213: 7516693680753489863
+    second: Pedro_creditos_7
+  - first:
+      213: 4074757445804076331
+    second: Pedro_creditos_8
+  - first:
+      213: -7122167780716129085
+    second: Pedro_creditos_9
+  - first:
+      213: -9106808292311822203
+    second: Pedro_creditos_10
+  - first:
+      213: 7883150877083041387
+    second: Pedro_creditos_11
+  - first:
+      213: 5907574195030452623
+    second: Pedro_creditos_12
+  - first:
+      213: 7150067152418950417
+    second: Pedro_creditos_13
+  - first:
+      213: 1673518330037442998
+    second: Pedro_creditos_14
+  - first:
+      213: -7278846607197149761
+    second: Pedro_creditos_15
+  - first:
+      213: -6723877369480791775
+    second: Pedro_creditos_16
+  - first:
+      213: -5581052115031714161
+    second: Pedro_creditos_17
+  - first:
+      213: 3405691570915179289
+    second: Pedro_creditos_18
+  - first:
+      213: -5295899422635969176
+    second: Pedro_creditos_19
+  - first:
+      213: 4447211190763168183
+    second: Pedro_creditos_20
+  - first:
+      213: -1344298853630210854
+    second: Pedro_creditos_21
+  - first:
+      213: 8991258180768020347
+    second: Pedro_creditos_22
+  - first:
+      213: 5271165311208446472
+    second: Pedro_creditos_23
+  - first:
+      213: -230999395203246692
+    second: Pedro_creditos_24
+  - first:
+      213: -1225178562397262665
+    second: Pedro_creditos_25
+  - first:
+      213: -865534574821606046
+    second: Pedro_creditos_26
+  - first:
+      213: 5263651506295278436
+    second: Pedro_creditos_27
+  - first:
+      213: -5797289609798899658
+    second: Pedro_creditos_28
+  - first:
+      213: 3202172627323211522
+    second: Pedro_creditos_29
+  - first:
+      213: 1241751526553047657
+    second: Pedro_creditos_30
+  - first:
+      213: 1928285422114720348
+    second: Pedro_creditos_31
+  - first:
+      213: 4367168071835806040
+    second: Pedro_creditos_32
+  - first:
+      213: 7436233287900065944
+    second: Pedro_creditos_33
+  - first:
+      213: 2569772826950228174
+    second: Pedro_creditos_34
+  - first:
+      213: -843143641855265815
+    second: Pedro_creditos_35
+  - first:
+      213: -4582441575492251949
+    second: Pedro_creditos_36
+  - first:
+      213: 8213591280893526115
+    second: Pedro_creditos_37
+  - first:
+      213: -8118169066078718923
+    second: Pedro_creditos_38
+  - first:
+      213: 7592164496301580360
+    second: Pedro_creditos_39
+  - first:
+      213: -6697467619550544067
+    second: Pedro_creditos_40
+  - first:
+      213: -1116050349268757291
+    second: Pedro_creditos_41
+  - first:
+      213: 8613694267081992206
+    second: Pedro_creditos_42
+  - first:
+      213: 3814278740037091498
+    second: Pedro_creditos_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pedro_creditos_0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f387869ffa2ed370800000000000000
+      internalID: 8349158036421968884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850a16d44e4788740800000000000000
+      internalID: 5154498297425141848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 215
+        width: 870
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f02eeecbeb7c8b0800000000000000
+      internalID: -5131923531694469296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d986203a287a18650800000000000000
+      internalID: 6233447538779908253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8650747a0aa2d17c0800000000000000
+      internalID: -4099073216347699864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e305c5a22bf83470800000000000000
+      internalID: 8374719633324049383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_6
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 555f016cee0419130800000000000000
+      internalID: 3571707373750908245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c73cb6d319a05860800000000000000
+      internalID: 7516693680753489863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_8
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2da707de427c8830800000000000000
+      internalID: 4074757445804076331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_9
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 215
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4dea7632af82d90800000000000000
+      internalID: -7122167780716129085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_10
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5801c2bab1e1e9180800000000000000
+      internalID: -9106808292311822203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_11
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 215
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ef75bb4f3966d60800000000000000
+      internalID: 7883150877083041387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_12
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 258
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89ed034e6bebf150800000000000000
+      internalID: 5907574195030452623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_13
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 215
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11dce1441342a3360800000000000000
+      internalID: 7150067152418950417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b99cf2fd08893710800000000000000
+      internalID: 1673518330037442998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_15
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5e47363975cfa90800000000000000
+      internalID: -7278846607197149761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_16
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1293fc6382dffa2a0800000000000000
+      internalID: -6723877369480791775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_17
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86979acbae1c82b0800000000000000
+      internalID: -5581052115031714161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_18
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bf0fa8072734f20800000000000000
+      internalID: 3405691570915179289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_19
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8653693b88f2186b0800000000000000
+      internalID: -5295899422635969176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_20
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b1a492040ba7bd30800000000000000
+      internalID: 4447211190763168183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_21
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc0865a057185de0800000000000000
+      internalID: -1344298853630210854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_22
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77b08c7dad57cc70800000000000000
+      internalID: 8991258180768020347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_23
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 258
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ad0f63ce0f62940800000000000000
+      internalID: 5271165311208446472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_24
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95949126435bccf0800000000000000
+      internalID: -230999395203246692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bc23e9b69a4ffee0800000000000000
+      internalID: -1225178562397262665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_26
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 215
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d70f6d3e00df3f0800000000000000
+      internalID: -865534574821606046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_27
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b0e2e282f3c0940800000000000000
+      internalID: 5263651506295278436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_28
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 215
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638afd3b0d3eb8fa0800000000000000
+      internalID: -5797289609798899658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_29
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f4419e907607c20800000000000000
+      internalID: 3202172627323211522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_30
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9625e7f2f669b3110800000000000000
+      internalID: 1241751526553047657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_31
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a46baff55a2ca10800000000000000
+      internalID: 1928285422114720348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_32
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859633c193c4b9c30800000000000000
+      internalID: 4367168071835806040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_33
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890f738c6cec23760800000000000000
+      internalID: 7436233287900065944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_34
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8d1d755caa9a320800000000000000
+      internalID: 2569772826950228174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_35
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3769c235d8c44f0800000000000000
+      internalID: -843143641855265815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_36
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de8dc87aa5e760c0800000000000000
+      internalID: -4582441575492251949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_37
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36087e3a0c98cf170800000000000000
+      internalID: 8213591280893526115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_38
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53430dd0f38765f80800000000000000
+      internalID: -8118169066078718923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_39
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84063666269cc5960800000000000000
+      internalID: 7592164496301580360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_40
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f320a4fa0dd03a0800000000000000
+      internalID: -6697467619550544067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_41
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 215
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d49264de1ef280f0800000000000000
+      internalID: -1116050349268757291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_42
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e08ad317c4df98770800000000000000
+      internalID: 8613694267081992206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pedro_creditos_43
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa04c3e1e4a0fe430800000000000000
+      internalID: 3814278740037091498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 2bcd4326902e01649a3ca7efdc322658
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Pedro_creditos_0: 8349158036421968884
+      Pedro_creditos_1: 5154498297425141848
+      Pedro_creditos_10: -9106808292311822203
+      Pedro_creditos_11: 7883150877083041387
+      Pedro_creditos_12: 5907574195030452623
+      Pedro_creditos_13: 7150067152418950417
+      Pedro_creditos_14: 1673518330037442998
+      Pedro_creditos_15: -7278846607197149761
+      Pedro_creditos_16: -6723877369480791775
+      Pedro_creditos_17: -5581052115031714161
+      Pedro_creditos_18: 3405691570915179289
+      Pedro_creditos_19: -5295899422635969176
+      Pedro_creditos_2: -5131923531694469296
+      Pedro_creditos_20: 4447211190763168183
+      Pedro_creditos_21: -1344298853630210854
+      Pedro_creditos_22: 8991258180768020347
+      Pedro_creditos_23: 5271165311208446472
+      Pedro_creditos_24: -230999395203246692
+      Pedro_creditos_25: -1225178562397262665
+      Pedro_creditos_26: -865534574821606046
+      Pedro_creditos_27: 5263651506295278436
+      Pedro_creditos_28: -5797289609798899658
+      Pedro_creditos_29: 3202172627323211522
+      Pedro_creditos_3: 6233447538779908253
+      Pedro_creditos_30: 1241751526553047657
+      Pedro_creditos_31: 1928285422114720348
+      Pedro_creditos_32: 4367168071835806040
+      Pedro_creditos_33: 7436233287900065944
+      Pedro_creditos_34: 2569772826950228174
+      Pedro_creditos_35: -843143641855265815
+      Pedro_creditos_36: -4582441575492251949
+      Pedro_creditos_37: 8213591280893526115
+      Pedro_creditos_38: -8118169066078718923
+      Pedro_creditos_39: 7592164496301580360
+      Pedro_creditos_4: -4099073216347699864
+      Pedro_creditos_40: -6697467619550544067
+      Pedro_creditos_41: -1116050349268757291
+      Pedro_creditos_42: 8613694267081992206
+      Pedro_creditos_43: 3814278740037091498
+      Pedro_creditos_5: 8374719633324049383
+      Pedro_creditos_6: 3571707373750908245
+      Pedro_creditos_7: 7516693680753489863
+      Pedro_creditos_8: 4074757445804076331
+      Pedro_creditos_9: -7122167780716129085
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

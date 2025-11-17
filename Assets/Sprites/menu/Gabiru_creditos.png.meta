@@ -1,0 +1,1352 @@
+fileFormatVersion: 2
+guid: c612389d437ca0a4c89ef726cdcd4678
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5991655062309717824
+    second: Gabiru_creditos_0
+  - first:
+      213: -82570719462590306
+    second: Gabiru_creditos_1
+  - first:
+      213: -1938935884686536728
+    second: Gabiru_creditos_2
+  - first:
+      213: -4059294226786196083
+    second: Gabiru_creditos_3
+  - first:
+      213: 2286581667550258925
+    second: Gabiru_creditos_4
+  - first:
+      213: 6419613816541431919
+    second: Gabiru_creditos_5
+  - first:
+      213: -3030336653119487317
+    second: Gabiru_creditos_6
+  - first:
+      213: -6394350189508480379
+    second: Gabiru_creditos_7
+  - first:
+      213: 5429398405522197509
+    second: Gabiru_creditos_8
+  - first:
+      213: -8745210633940024582
+    second: Gabiru_creditos_9
+  - first:
+      213: -261596185263241204
+    second: Gabiru_creditos_10
+  - first:
+      213: -2478985984433469224
+    second: Gabiru_creditos_11
+  - first:
+      213: 1185338846603337095
+    second: Gabiru_creditos_12
+  - first:
+      213: 8451114266329571567
+    second: Gabiru_creditos_13
+  - first:
+      213: -1844563117657829437
+    second: Gabiru_creditos_14
+  - first:
+      213: 9135095759954694845
+    second: Gabiru_creditos_15
+  - first:
+      213: 3110089045106566318
+    second: Gabiru_creditos_16
+  - first:
+      213: 5675555260009889704
+    second: Gabiru_creditos_17
+  - first:
+      213: 3643760773719195645
+    second: Gabiru_creditos_18
+  - first:
+      213: 8860905415582588842
+    second: Gabiru_creditos_19
+  - first:
+      213: 6028041169113680755
+    second: Gabiru_creditos_20
+  - first:
+      213: -3473916860714955753
+    second: Gabiru_creditos_21
+  - first:
+      213: 219260647962112331
+    second: Gabiru_creditos_22
+  - first:
+      213: 5797699867832890496
+    second: Gabiru_creditos_23
+  - first:
+      213: 5508675213826072180
+    second: Gabiru_creditos_24
+  - first:
+      213: -3668673808386599375
+    second: Gabiru_creditos_25
+  - first:
+      213: -1812972586747801572
+    second: Gabiru_creditos_26
+  - first:
+      213: 8538758745218734703
+    second: Gabiru_creditos_27
+  - first:
+      213: 1464682820997487428
+    second: Gabiru_creditos_28
+  - first:
+      213: 143913674393416916
+    second: Gabiru_creditos_29
+  - first:
+      213: -7120015910416240558
+    second: Gabiru_creditos_30
+  - first:
+      213: 7636663164115366562
+    second: Gabiru_creditos_31
+  - first:
+      213: -6652762968114353543
+    second: Gabiru_creditos_32
+  - first:
+      213: -264187290160237888
+    second: Gabiru_creditos_33
+  - first:
+      213: 5891744197031079935
+    second: Gabiru_creditos_34
+  - first:
+      213: 4919986717169134200
+    second: Gabiru_creditos_35
+  - first:
+      213: -6650522361984921460
+    second: Gabiru_creditos_36
+  - first:
+      213: 8856818838959453182
+    second: Gabiru_creditos_37
+  - first:
+      213: -2614497745538598147
+    second: Gabiru_creditos_38
+  - first:
+      213: 4425991128417520920
+    second: Gabiru_creditos_39
+  - first:
+      213: 7301525747838157753
+    second: Gabiru_creditos_40
+  - first:
+      213: -3021107879997764002
+    second: Gabiru_creditos_41
+  - first:
+      213: 4334932713051599977
+    second: Gabiru_creditos_42
+  - first:
+      213: -1897826278052146646
+    second: Gabiru_creditos_43
+  - first:
+      213: 4462680570974697479
+    second: Gabiru_creditos_44
+  - first:
+      213: 955498409004923274
+    second: Gabiru_creditos_45
+  - first:
+      213: 1741066311692646311
+    second: Gabiru_creditos_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gabiru_creditos_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c8bb5a477d59dca0800000000000000
+      internalID: -5991655062309717824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e98759d3e56aadef0800000000000000
+      internalID: -82570719462590306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_2
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 215
+        width: 889
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef4007f5148715e0800000000000000
+      internalID: -1938935884686536728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 258
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d856d95686d7aa7c0800000000000000
+      internalID: -4059294226786196083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_4
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6e04c69e19bbf10800000000000000
+      internalID: 2286581667550258925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_5
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68442ae0cc071950800000000000000
+      internalID: 6419613816541431919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_6
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba287f09ed412f5d0800000000000000
+      internalID: -3030336653119487317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58235e0a164b247a0800000000000000
+      internalID: -6394350189508480379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c09396519195b40800000000000000
+      internalID: 5429398405522197509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_9
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af249063345c2a680800000000000000
+      internalID: -8745210633940024582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 215
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0889cec7af9e5cf0800000000000000
+      internalID: -261596185263241204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_11
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8cba2a16fd89dd0800000000000000
+      internalID: -2478985984433469224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_12
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 215
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78d534a966b237010800000000000000
+      internalID: 1185338846603337095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_13
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06fc836a3684570800000000000000
+      internalID: 8451114266329571567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_14
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfc73e0e9bc666e0800000000000000
+      internalID: -1844563117657829437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_15
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2d641a13166ce70800000000000000
+      internalID: 9135095759954694845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_16
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea429613281492b20800000000000000
+      internalID: 3110089045106566318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af3df7407f93ce40800000000000000
+      internalID: 5675555260009889704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_18
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 258
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfff8044e1d319230800000000000000
+      internalID: 3643760773719195645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_19
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaf9224478248fa70800000000000000
+      internalID: 8860905415582588842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_20
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b83706187e7a350800000000000000
+      internalID: 6028041169113680755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_21
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c48d1550b2acfc0800000000000000
+      internalID: -3473916860714955753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_22
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41f00bc568fa0300800000000000000
+      internalID: 219260647962112331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_23
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0843280ff41957050800000000000000
+      internalID: 5797699867832890496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_24
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 258
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e1a17bbeeb27c40800000000000000
+      internalID: 5508675213826072180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_25
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1365656db90461dc0800000000000000
+      internalID: -3668673808386599375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_26
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c105063b90707d6e0800000000000000
+      internalID: -1812972586747801572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ad587a6d3cf7670800000000000000
+      internalID: 8538758745218734703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 258
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b1c26f349935410800000000000000
+      internalID: 1464682820997487428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_29
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d47a8079b84ff100800000000000000
+      internalID: 143913674393416916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_30
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 258
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250b280c04f903d90800000000000000
+      internalID: -7120015910416240558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_31
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a2386edfa0eaf960800000000000000
+      internalID: 7636663164115366562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_32
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97aabae0453aca3a0800000000000000
+      internalID: -6652762968114353543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_33
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c273df2f0b655cf0800000000000000
+      internalID: -264187290160237888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_34
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fffa183a12ea3c150800000000000000
+      internalID: 5891744197031079935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_35
+      rect:
+        serializedVersion: 2
+        x: 724
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87aa1802add474440800000000000000
+      internalID: 4919986717169134200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_36
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 258
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80d813d52994b3a0800000000000000
+      internalID: -6650522361984921460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_37
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 215
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef37a200fcdb9ea70800000000000000
+      internalID: 8856818838959453182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_38
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 258
+        width: 43
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfabc13172077bbd0800000000000000
+      internalID: -2614497745538598147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_39
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81d4b5c3b774c6d30800000000000000
+      internalID: 4425991128417520920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_40
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b303468bfa345560800000000000000
+      internalID: 7301525747838157753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_41
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 258
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5e8990c36ed216d0800000000000000
+      internalID: -3021107879997764002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_42
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 215
+        width: 19
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96439a6c556c82c30800000000000000
+      internalID: 4334932713051599977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_43
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 215
+        width: 40
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22dc432e0199a5e0800000000000000
+      internalID: -1897826278052146646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_44
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 215
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 708fbf2c550aeed30800000000000000
+      internalID: 4462680570974697479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_45
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8970349dbc924d00800000000000000
+      internalID: 955498409004923274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gabiru_creditos_46
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 215
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7f6def592892810800000000000000
+      internalID: 1741066311692646311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e9b2b4db9fcc8434e8aa1fdbbf376e58
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Gabiru_creditos_0: -5991655062309717824
+      Gabiru_creditos_1: -82570719462590306
+      Gabiru_creditos_10: -261596185263241204
+      Gabiru_creditos_11: -2478985984433469224
+      Gabiru_creditos_12: 1185338846603337095
+      Gabiru_creditos_13: 8451114266329571567
+      Gabiru_creditos_14: -1844563117657829437
+      Gabiru_creditos_15: 9135095759954694845
+      Gabiru_creditos_16: 3110089045106566318
+      Gabiru_creditos_17: 5675555260009889704
+      Gabiru_creditos_18: 3643760773719195645
+      Gabiru_creditos_19: 8860905415582588842
+      Gabiru_creditos_2: -1938935884686536728
+      Gabiru_creditos_20: 6028041169113680755
+      Gabiru_creditos_21: -3473916860714955753
+      Gabiru_creditos_22: 219260647962112331
+      Gabiru_creditos_23: 5797699867832890496
+      Gabiru_creditos_24: 5508675213826072180
+      Gabiru_creditos_25: -3668673808386599375
+      Gabiru_creditos_26: -1812972586747801572
+      Gabiru_creditos_27: 8538758745218734703
+      Gabiru_creditos_28: 1464682820997487428
+      Gabiru_creditos_29: 143913674393416916
+      Gabiru_creditos_3: -4059294226786196083
+      Gabiru_creditos_30: -7120015910416240558
+      Gabiru_creditos_31: 7636663164115366562
+      Gabiru_creditos_32: -6652762968114353543
+      Gabiru_creditos_33: -264187290160237888
+      Gabiru_creditos_34: 5891744197031079935
+      Gabiru_creditos_35: 4919986717169134200
+      Gabiru_creditos_36: -6650522361984921460
+      Gabiru_creditos_37: 8856818838959453182
+      Gabiru_creditos_38: -2614497745538598147
+      Gabiru_creditos_39: 4425991128417520920
+      Gabiru_creditos_4: 2286581667550258925
+      Gabiru_creditos_40: 7301525747838157753
+      Gabiru_creditos_41: -3021107879997764002
+      Gabiru_creditos_42: 4334932713051599977
+      Gabiru_creditos_43: -1897826278052146646
+      Gabiru_creditos_44: 4462680570974697479
+      Gabiru_creditos_45: 955498409004923274
+      Gabiru_creditos_46: 1741066311692646311
+      Gabiru_creditos_5: 6419613816541431919
+      Gabiru_creditos_6: -3030336653119487317
+      Gabiru_creditos_7: -6394350189508480379
+      Gabiru_creditos_8: 5429398405522197509
+      Gabiru_creditos_9: -8745210633940024582
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

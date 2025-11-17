@@ -1,25 +1,28 @@
 fileFormatVersion: 2
-guid: 8702104346e3097499dfac3415192ba2
+guid: 102c676447f0c5f439e0930fb38af4c6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2851668127641514706
-    second: Pular_0
+      213: 3608787431054555260
+    second: controles_atirar_0
   - first:
-      213: 7814863349080300412
-    second: Pular_1
+      213: -8283208139091648174
+    second: controles_atirar_1
   - first:
-      213: -6741319801789431731
-    second: Pular_2
+      213: -5406826418724182666
+    second: controles_atirar_2
   - first:
-      213: 70704439235464330
-    second: Pular_3
+      213: -3909103395642431008
+    second: controles_atirar_3
   - first:
-      213: 5257464432525608567
-    second: Pular_4
+      213: -8220740635188785460
+    second: controles_atirar_4
   - first:
-      213: 3444978881615640633
-    second: Pular_5
+      213: -316516857954840075
+    second: controles_atirar_5
+  - first:
+      213: -1298165827663066745
+    second: controles_atirar_6
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -90,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -128,13 +131,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pular_0
+      name: controles_atirar_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 305
-        height: 230
+        width: 86
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +146,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d23065ad09239720800000000000000
-      internalID: 2851668127641514706
+      spriteID: c78b6e16c0df41230800000000000000
+      internalID: 3608787431054555260
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pular_1
+      name: controles_atirar_1
       rect:
         serializedVersion: 2
-        x: 77
-        y: 172
-        width: 54
-        height: 58
+        x: 14
+        y: 36
+        width: 19
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,20 +168,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7b9622afc8f37c60800000000000000
-      internalID: 7814863349080300412
+      spriteID: 25161d475122c0d80800000000000000
+      internalID: -8283208139091648174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pular_2
+      name: controles_atirar_2
       rect:
         serializedVersion: 2
-        x: 133
-        y: 172
+        x: 36
+        y: 37
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6756fbdc40817f4b0800000000000000
+      internalID: -5406826418724182666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controles_atirar_3
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 37
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e9a5784c2310c9c0800000000000000
+      internalID: -3909103395642431008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controles_atirar_4
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 0
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce04f892ff0aed80800000000000000
+      internalID: -8220740635188785460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controles_atirar_5
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 37
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1dd2c38918b9bf0800000000000000
+      internalID: -316516857954840075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: controles_atirar_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
         width: 35
-        height: 58
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,74 +278,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d40c8097b550272a0800000000000000
-      internalID: -6741319801789431731
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pular_3
-      rect:
-        serializedVersion: 2
-        x: 170
-        y: 172
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a8c4ca810513bf000800000000000000
-      internalID: 70704439235464330
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pular_4
-      rect:
-        serializedVersion: 2
-        x: 227
-        y: 172
-        width: 54
-        height: 58
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 77680ffcb0446f840800000000000000
-      internalID: 5257464432525608567
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pular_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 305
-        height: 149
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9383c616a060fcf20800000000000000
-      internalID: 3444978881615640633
+      spriteID: 7898796ce0dfbfde0800000000000000
+      internalID: -1298165827663066745
       vertices: []
       indices: 
       edges: []
@@ -263,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 16a8cd3e11878f140a7e19637f221cce
+    spriteID: 8b848838bfecea64ab9c3f3e676276aa
     internalID: 0
     vertices: []
     indices: 
@@ -273,12 +298,13 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Pular_0: 2851668127641514706
-      Pular_1: 7814863349080300412
-      Pular_2: -6741319801789431731
-      Pular_3: 70704439235464330
-      Pular_4: 5257464432525608567
-      Pular_5: 3444978881615640633
+      controles_atirar_0: 3608787431054555260
+      controles_atirar_1: -8283208139091648174
+      controles_atirar_2: -5406826418724182666
+      controles_atirar_3: -3909103395642431008
+      controles_atirar_4: -8220740635188785460
+      controles_atirar_5: -316516857954840075
+      controles_atirar_6: -1298165827663066745
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

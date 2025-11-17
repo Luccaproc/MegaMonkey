@@ -51,6 +51,9 @@ TagManager:
   - name: 3
     uniqueID: 4207448675
     locked: 0
+  - name: Dialogo
+    uniqueID: 2538493285
+    locked: 0
   - name: Player
     uniqueID: 1958973755
     locked: 0
@@ -60,11 +63,11 @@ TagManager:
   - name: "Gabriel Lim\xE3o"
     uniqueID: 2189821843
     locked: 0
-  - name: Tilemap
-    uniqueID: 363391007
-    locked: 0
   - name: Projectile
     uniqueID: 3787400113
+    locked: 0
+  - name: Tilemap
+    uniqueID: 363391007
     locked: 0
   m_RenderingLayers:
   - Default

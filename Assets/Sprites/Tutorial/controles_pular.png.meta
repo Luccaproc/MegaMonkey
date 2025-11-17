@@ -1,34 +1,25 @@
 fileFormatVersion: 2
-guid: e8ef271de5385d14b98f551e7568a39b
+guid: 49c95ede104652a40bb6b3115c363b09
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1461684549444182694
-    second: andar_0
+      213: 2898897471787744041
+    second: controles_pular_0
   - first:
-      213: 7151871423810812167
-    second: andar_1
+      213: 7143682260148580825
+    second: controles_pular_1
   - first:
-      213: 6344414357037163946
-    second: andar_2
+      213: -7259953178289042432
+    second: controles_pular_2
   - first:
-      213: -1582253878934043206
-    second: andar_3
+      213: -8974681013564720735
+    second: controles_pular_3
   - first:
-      213: 572631470205352863
-    second: andar_4
+      213: 7684376148624753148
+    second: controles_pular_4
   - first:
-      213: 2279175967295452027
-    second: andar_5
-  - first:
-      213: 1887566095997033613
-    second: andar_6
-  - first:
-      213: -8269140807782635073
-    second: andar_7
-  - first:
-      213: -7008193562724824481
-    second: andar_8
+      213: -1395811356147949479
+    second: controles_pular_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -61,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 8
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,7 +90,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -137,13 +128,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: andar_0
+      name: controles_pular_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 515
-        height: 485
+        width: 86
+        height: 63
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +143,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5dd3b885ad07bbe0800000000000000
-      internalID: -1461684549444182694
+      spriteID: 92bbf2e34e3fa3820800000000000000
+      internalID: 2898897471787744041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andar_1
+      name: controles_pular_1
       rect:
         serializedVersion: 2
-        x: 169
-        y: 417
-        width: 59
-        height: 59
+        x: 21
+        y: 38
+        width: 18
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 709b28fea2d804360800000000000000
-      internalID: 7151871423810812167
+      spriteID: 9d17a60ba25732360800000000000000
+      internalID: 7143682260148580825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andar_2
+      name: controles_pular_2
       rect:
         serializedVersion: 2
-        x: 230
-        y: 417
-        width: 54
-        height: 59
+        x: 38
+        y: 37
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa5a61b5e33eb0850800000000000000
-      internalID: 6344414357037163946
+      spriteID: 00c0d1a9c077f3b90800000000000000
+      internalID: -7259953178289042432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andar_3
+      name: controles_pular_3
       rect:
         serializedVersion: 2
-        x: 286
-        y: 417
-        width: 54
-        height: 59
+        x: 51
+        y: 37
+        width: 17
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ab507a1fa74ba0ae0800000000000000
-      internalID: -1582253878934043206
+      spriteID: 1a938060b27837380800000000000000
+      internalID: -8974681013564720735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andar_4
+      name: controles_pular_4
       rect:
         serializedVersion: 2
-        x: 343
-        y: 417
-        width: 54
-        height: 59
+        x: 69
+        y: 37
+        width: 16
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,64 +231,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f9bbcc8c94562f700800000000000000
-      internalID: 572631470205352863
+      spriteID: cf14343c46364aa60800000000000000
+      internalID: 7684376148624753148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andar_5
+      name: controles_pular_5
       rect:
         serializedVersion: 2
-        x: 27
-        y: 207
-        width: 174
-        height: 174
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b73b047777241af10800000000000000
-      internalID: 2279175967295452027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: andar_6
-      rect:
-        serializedVersion: 2
-        x: 307
-        y: 206
-        width: 176
-        height: 175
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d8c59f11d5bf13a10800000000000000
-      internalID: 1887566095997033613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: andar_7
-      rect:
-        serializedVersion: 2
-        x: 27
+        x: 0
         y: 0
-        width: 174
-        height: 173
+        width: 86
+        height: 36
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -306,30 +253,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fb9ed624f3c1e3d80800000000000000
-      internalID: -8269140807782635073
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: andar_8
-      rect:
-        serializedVersion: 2
-        x: 313
-        y: 0
-        width: 174
-        height: 173
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f5a8b90f515edbe90800000000000000
-      internalID: -7008193562724824481
+      spriteID: 950685787f411ace0800000000000000
+      internalID: -1395811356147949479
       vertices: []
       indices: 
       edges: []
@@ -338,7 +263,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ff40626d00a0b9e4ea5eacd22453172a
+    spriteID: 8c93a478e8aa9834db5184259c7784d3
     internalID: 0
     vertices: []
     indices: 
@@ -348,15 +273,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      andar_0: -1461684549444182694
-      andar_1: 7151871423810812167
-      andar_2: 6344414357037163946
-      andar_3: -1582253878934043206
-      andar_4: 572631470205352863
-      andar_5: 2279175967295452027
-      andar_6: 1887566095997033613
-      andar_7: -8269140807782635073
-      andar_8: -7008193562724824481
+      controles_pular_0: 2898897471787744041
+      controles_pular_1: 7143682260148580825
+      controles_pular_2: -7259953178289042432
+      controles_pular_3: -8974681013564720735
+      controles_pular_4: 7684376148624753148
+      controles_pular_5: -1395811356147949479
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

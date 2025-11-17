@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask enemyLayer;
 
+    [Header("Audio Sources")]
+    public AudioSource jumpSound;
+
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 70f;
     [SerializeField] private float maxMoveSpeed = 12f;
@@ -186,6 +189,9 @@ public class PlayerMovement : MonoBehaviour
         hangTimeCounter = 0f;
         jumpBufferCounter = 0f;
 
+        //Audio
+        jumpSound.Play();
+
         //Animação
         anim.SetBool("isJumping", true);
         anim.SetBool("isFalling", false);
@@ -241,23 +247,33 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckColissions()
     {
-        bool leftHitGround = Physics2D.Raycast(leftFoot.position, Vector2.down, groundRaycastLenght, groundLayer);
-        bool rightHitGround = Physics2D.Raycast(rightFoot.position, Vector2.down, groundRaycastLenght, groundLayer);
+        // Pega o collider pra medir largura
+        float halfWidth = GetComponent<Collider2D>().bounds.extents.x;
 
-        bool leftHitEnemy = Physics2D.Raycast(leftFoot.position, Vector2.down, groundRaycastLenght, enemyLayer);
-        bool rightHitEnemy = Physics2D.Raycast(rightFoot.position, Vector2.down, groundRaycastLenght, enemyLayer);
+        // Offset de 30% da largura para cada lado
+        float offset = halfWidth * 0.3f;
 
-        onGround = leftHitGround || rightHitGround;
-        bool hitEnemy = leftHitEnemy || rightHitEnemy;
+        // Calcula posições dos pés
+        Vector2 leftOrigin = new Vector2(transform.position.x - offset, transform.position.y);
+        Vector2 rightOrigin = new Vector2(transform.position.x + offset, transform.position.y);
+
+        // Raycasts para cada lado
+        bool leftHitGround = Physics2D.Raycast(leftOrigin, Vector2.down, groundRaycastLenght, groundLayer);
+        bool rightHitGround = Physics2D.Raycast(rightOrigin, Vector2.down, groundRaycastLenght, groundLayer);
+
+        bool leftHitEnemy = Physics2D.Raycast(leftOrigin, Vector2.down, groundRaycastLenght, enemyLayer);
+        bool rightHitEnemy = Physics2D.Raycast(rightOrigin, Vector2.down, groundRaycastLenght, enemyLayer);
+
+        // O player está no chão se qualquer pé tocar
+        onGround = leftHitGround || rightHitGround || leftHitEnemy || rightHitEnemy;
 
         //Desenha o Raycast que verifica colisão com a layer do chão
     }
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red;
-        Gizmos.DrawLine(leftFoot.position, transform.position + Vector3.down * groundRaycastLenght);
-        Gizmos.DrawLine(rightFoot.position, transform.position + Vector3.down * groundRaycastLenght);
+        Gizmos.color = Color.red; 
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundRaycastLenght);
         //Desenha uma linha pra dar pra ver o Raycast
     }
 }
