@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: 57deaaf62bf015f4c86fb05dadb38eb3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2043703074493766123
+    second: Final da alfa_0
+  - first:
+      213: 8492773085561012497
+    second: Final da alfa_1
+  - first:
+      213: 7502025755076665921
+    second: Final da alfa_2
+  - first:
+      213: -1133416963061148830
+    second: Final da alfa_3
+  - first:
+      213: 462225393724507427
+    second: Final da alfa_4
+  - first:
+      213: 2779218502623690756
+    second: Final da alfa_5
+  - first:
+      213: -5653240379088508015
+    second: Final da alfa_6
+  - first:
+      213: 5273503564549307960
+    second: Final da alfa_7
+  - first:
+      213: -660114951843205248
+    second: Final da alfa_8
+  - first:
+      213: -5224166200964182667
+    second: Final da alfa_9
+  - first:
+      213: -853919479567036587
+    second: Final da alfa_10
+  - first:
+      213: -4702584496544162116
+    second: Final da alfa_11
+  - first:
+      213: 7969114021723794889
+    second: Final da alfa_12
+  - first:
+      213: -8458624125647780158
+    second: Final da alfa_13
+  - first:
+      213: -4504358764917009864
+    second: Final da alfa_14
+  - first:
+      213: -6225862143543150847
+    second: Final da alfa_15
+  - first:
+      213: -7710014672400045459
+    second: Final da alfa_16
+  - first:
+      213: -5363310646193534683
+    second: Final da alfa_17
+  - first:
+      213: 3548868215438234993
+    second: Final da alfa_18
+  - first:
+      213: -7629808515774350006
+    second: Final da alfa_19
+  - first:
+      213: 166757638233763491
+    second: Final da alfa_20
+  - first:
+      213: 2139104452628121993
+    second: Final da alfa_21
+  - first:
+      213: 7688631248888460606
+    second: Final da alfa_22
+  - first:
+      213: -5953285905632097114
+    second: Final da alfa_23
+  - first:
+      213: -7763746057296655668
+    second: Final da alfa_24
+  - first:
+      213: 6340904698635166343
+    second: Final da alfa_25
+  - first:
+      213: 2650477967233493299
+    second: Final da alfa_26
+  - first:
+      213: -216124077795922371
+    second: Final da alfa_27
+  - first:
+      213: -852106955660570254
+    second: Final da alfa_28
+  - first:
+      213: -2457428967164057954
+    second: Final da alfa_29
+  - first:
+      213: -4842260002281382724
+    second: Final da alfa_30
+  - first:
+      213: -8463112197853402021
+    second: Final da alfa_31
+  - first:
+      213: -5911754726702536176
+    second: Final da alfa_32
+  - first:
+      213: -6969225668751436783
+    second: Final da alfa_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Final da alfa_0
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 327
+        width: 1522
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 11, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be913954e11bc5c10800000000000000
+      internalID: 2043703074493766123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_1
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 842
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111ccdaef146cd570800000000000000
+      internalID: 8492773085561012497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_2
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 842
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1422d234dac8c1860800000000000000
+      internalID: 7502025755076665921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_3
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 842
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2639656f64b4540f0800000000000000
+      internalID: -1133416963061148830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_4
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 842
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3254d1feb872a6600800000000000000
+      internalID: 462225393724507427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_5
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 842
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4000412d084c19620800000000000000
+      internalID: 2779218502623690756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_6
+      rect:
+        serializedVersion: 2
+        x: 1697
+        y: 842
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19be88ec3d7ab81b0800000000000000
+      internalID: -5653240379088508015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_7
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 842
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83eb7be3d8f3f2940800000000000000
+      internalID: 5273503564549307960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_8
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 892
+        width: 53
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f2670e2fcc6d6f0800000000000000
+      internalID: -660114951843205248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_9
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d8defd4880087b0800000000000000
+      internalID: -5224166200964182667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_10
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fce91f1c44624f0800000000000000
+      internalID: -853919479567036587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_11
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 680
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbed935d0501dbeb0800000000000000
+      internalID: -4702584496544162116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_12
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 680
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd6e670bfaf79e60800000000000000
+      internalID: 7969114021723794889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_13
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 680
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c607366c2eec9a80800000000000000
+      internalID: -8458624125647780158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_14
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8325434819d4d71c0800000000000000
+      internalID: -4504358764917009864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_15
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 680
+        width: 129
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107fe81dd5b4999a0800000000000000
+      internalID: -6225862143543150847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_16
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6aab8e3186800590800000000000000
+      internalID: -7710014672400045459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_17
+      rect:
+        serializedVersion: 2
+        x: 1887
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52940912261b195b0800000000000000
+      internalID: -5363310646193534683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_18
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 829
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 175ded7d6dc104130800000000000000
+      internalID: 3548868215438234993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_19
+      rect:
+        serializedVersion: 2
+        x: 2039
+        y: 680
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4df40154997d1690800000000000000
+      internalID: -7629808515774350006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_20
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 517
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aea18e3031705200800000000000000
+      internalID: 166757638233763491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_21
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 517
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9890b5c8a20afad10800000000000000
+      internalID: 2139104452628121993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_22
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 517
+        width: 117
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35f6fe726183ba60800000000000000
+      internalID: 7688631248888460606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_23
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 517
+        width: 66
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac857cb20ea16da0800000000000000
+      internalID: -5953285905632097114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_24
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 517
+        width: 155
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca4e705812a14490800000000000000
+      internalID: -7763746057296655668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_25
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 517
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78221c45a3b6ff750800000000000000
+      internalID: 6340904698635166343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_26
+      rect:
+        serializedVersion: 2
+        x: 1817
+        y: 405
+        width: 91
+        height: 267
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 339a3f91ba368c420800000000000000
+      internalID: 2650477967233493299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_27
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 355
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ea09bdb4c200df0800000000000000
+      internalID: -216124077795922371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_28
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 355
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271563d0d35bc24f0800000000000000
+      internalID: -852106955660570254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_29
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 355
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e966e67df5575edd0800000000000000
+      internalID: -2457428967164057954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_30
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 355
+        width: 91
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc9fedee26dcccb0800000000000000
+      internalID: -4842260002281382724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_31
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 355
+        width: 117
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5c2ca8ab4cfc8a80800000000000000
+      internalID: -8463112197853402021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_32
+      rect:
+        serializedVersion: 2
+        x: 1691
+        y: 355
+        width: 142
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa8abd56a35fda0800000000000000
+      internalID: -5911754726702536176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Final da alfa_33
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 342
+        width: 53
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1145986cd26584f90800000000000000
+      internalID: -6969225668751436783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 799c5f8634994de468b8f23544d1d4e8
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Final da alfa_0: 2043703074493766123
+      Final da alfa_1: 8492773085561012497
+      Final da alfa_10: -853919479567036587
+      Final da alfa_11: -4702584496544162116
+      Final da alfa_12: 7969114021723794889
+      Final da alfa_13: -8458624125647780158
+      Final da alfa_14: -4504358764917009864
+      Final da alfa_15: -6225862143543150847
+      Final da alfa_16: -7710014672400045459
+      Final da alfa_17: -5363310646193534683
+      Final da alfa_18: 3548868215438234993
+      Final da alfa_19: -7629808515774350006
+      Final da alfa_2: 7502025755076665921
+      Final da alfa_20: 166757638233763491
+      Final da alfa_21: 2139104452628121993
+      Final da alfa_22: 7688631248888460606
+      Final da alfa_23: -5953285905632097114
+      Final da alfa_24: -7763746057296655668
+      Final da alfa_25: 6340904698635166343
+      Final da alfa_26: 2650477967233493299
+      Final da alfa_27: -216124077795922371
+      Final da alfa_28: -852106955660570254
+      Final da alfa_29: -2457428967164057954
+      Final da alfa_3: -1133416963061148830
+      Final da alfa_30: -4842260002281382724
+      Final da alfa_31: -8463112197853402021
+      Final da alfa_32: -5911754726702536176
+      Final da alfa_33: -6969225668751436783
+      Final da alfa_4: 462225393724507427
+      Final da alfa_5: 2779218502623690756
+      Final da alfa_6: -5653240379088508015
+      Final da alfa_7: 5273503564549307960
+      Final da alfa_8: -660114951843205248
+      Final da alfa_9: -5224166200964182667
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

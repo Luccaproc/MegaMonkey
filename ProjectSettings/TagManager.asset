@@ -42,5 +42,29 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: 1
+    uniqueID: 3582855939
+    locked: 0
+  - name: 2
+    uniqueID: 3217609813
+    locked: 0
+  - name: 3
+    uniqueID: 4207448675
+    locked: 0
+  - name: Player
+    uniqueID: 1958973755
+    locked: 0
+  - name: Enemy
+    uniqueID: 1211659565
+    locked: 0
+  - name: "Gabriel Lim\xE3o"
+    uniqueID: 2189821843
+    locked: 0
+  - name: Tilemap
+    uniqueID: 363391007
+    locked: 0
+  - name: Projectile
+    uniqueID: 3787400113
+    locked: 0
   m_RenderingLayers:
   - Default

@@ -18,6 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float maxMoveSpeed = 12f;
     [SerializeField] private float groundLinearDrag = 7f;
     //linearDrag é o que faz o personagem desacelerar antes de parar
+    public bool isRunning;
     private float horizontalDirection;
     private bool changingDirection => (rb.linearVelocityX > 0f && horizontalDirection < 0f) || (rb.linearVelocityX < 0f && horizontalDirection > 0f);
     public bool facingRight = true;
@@ -36,6 +37,8 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Collision Variables")]
     [SerializeField] private float groundRaycastLenght;
+    public Transform leftFoot;
+    public Transform rightFoot;
 
     [Header("Camera Variables")]
     private CameraFollowOBJECT cameraFollowObject;
@@ -143,6 +146,17 @@ public class PlayerMovement : MonoBehaviour
         if (Mathf.Abs(rb.linearVelocityX) > maxMoveSpeed)
             rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocityX) * maxMoveSpeed, rb.linearVelocityY);
         //Impede a velocidade de passar do maximo
+
+        if (Mathf.Abs(horizontalDirection) > 0.1f && onGround)
+        {
+            anim.SetBool("isRunning", true);
+            isRunning = true;
+        }
+        else
+        {
+            anim.SetBool("isRunning", false);
+            isRunning = false;
+        }
     }
 
     private void ApplyGroundLinearDrag()
@@ -227,10 +241,14 @@ public class PlayerMovement : MonoBehaviour
 
     private void CheckColissions()
     {
-        bool hitGround = Physics2D.Raycast(transform.position, Vector2.down, groundRaycastLenght, groundLayer);
-        bool hitEnemy  = Physics2D.Raycast(transform.position, Vector2.down, groundRaycastLenght, enemyLayer);
+        bool leftHitGround = Physics2D.Raycast(leftFoot.position, Vector2.down, groundRaycastLenght, groundLayer);
+        bool rightHitGround = Physics2D.Raycast(rightFoot.position, Vector2.down, groundRaycastLenght, groundLayer);
 
-        onGround = hitGround || hitEnemy;
+        bool leftHitEnemy = Physics2D.Raycast(leftFoot.position, Vector2.down, groundRaycastLenght, enemyLayer);
+        bool rightHitEnemy = Physics2D.Raycast(rightFoot.position, Vector2.down, groundRaycastLenght, enemyLayer);
+
+        onGround = leftHitGround || rightHitGround;
+        bool hitEnemy = leftHitEnemy || rightHitEnemy;
 
         //Desenha o Raycast que verifica colisão com a layer do chão
     }
@@ -238,7 +256,8 @@ public class PlayerMovement : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundRaycastLenght);
+        Gizmos.DrawLine(leftFoot.position, transform.position + Vector3.down * groundRaycastLenght);
+        Gizmos.DrawLine(rightFoot.position, transform.position + Vector3.down * groundRaycastLenght);
         //Desenha uma linha pra dar pra ver o Raycast
     }
 }

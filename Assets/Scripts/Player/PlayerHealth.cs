@@ -1,4 +1,7 @@
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -15,7 +18,7 @@ public class PlayerHealth : MonoBehaviour
         health -= damage;
         if (health <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadSceneAsync(2);
         }
     }
 }
