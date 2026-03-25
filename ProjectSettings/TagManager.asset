@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Enemy
+  - Dash
   layers:
   - Default
   - TransparentFX
@@ -42,6 +43,18 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Sky
+    uniqueID: 1455551847
+    locked: 0
+  - name: Cloud
+    uniqueID: 4092155129
+    locked: 0
+  - name: Background
+    uniqueID: 1441728777
+    locked: 0
+  - name: Foreground
+    uniqueID: 454610957
+    locked: 0
   - name: 1
     uniqueID: 3582855939
     locked: 0
@@ -68,6 +81,15 @@ TagManager:
     locked: 0
   - name: Tilemap
     uniqueID: 363391007
+    locked: 0
+  - name: Foreground teste 1
+    uniqueID: 1618613087
+    locked: 0
+  - name: Foreground teste 2
+    uniqueID: 2950845947
+    locked: 0
+  - name: Foreground teste 3
+    uniqueID: 1109518359
     locked: 0
   m_RenderingLayers:
   - Default

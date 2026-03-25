@@ -1,35 +1,33 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class BackgroundController : MonoBehaviour
 {
-    public Transform cam;
-    public float parallaxEffect;
-
-    private float startX;
-    private float length;
+    [Header("Parallax Variables")]
+    private float startPosition, length;
+    public GameObject cam;
+    [SerializeField] public float parallaxSpeed;
 
     void Start()
     {
-        startX = transform.position.x;
+        startPosition = transform.position.x;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
     }
 
-    void LateUpdate()
+    private void FixedUpdate()
     {
-        // Parallax movement
-        float temp = cam.position.x * (1 - parallaxEffect);
-        float dist = cam.position.x * parallaxEffect;
+        float distance = (cam.transform.position.x + 50) * parallaxSpeed;
+        float movement = cam.transform.position.x * (1 - parallaxSpeed);
 
-        transform.position = new Vector3(startX + dist, transform.position.y, transform.position.z);
+        transform.position = new Vector3(startPosition + distance, transform.position.y, transform.position.z);
 
-        // Endless scroll
-        if (temp > startX + length)  
+        if (movement > startPosition + length)
         {
-            startX += length;
+            startPosition += length; 
         }
-        else if (temp < startX - length)
+        else if (movement < startPosition - length)
         {
-            startX -= length;
+            startPosition -= length;
         }
     }
 }

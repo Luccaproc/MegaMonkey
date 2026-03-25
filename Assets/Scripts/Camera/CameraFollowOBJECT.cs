@@ -8,7 +8,7 @@ public class CameraFollowOBJECT : MonoBehaviour
     [SerializeField] private Transform playerTransform;
 
     [Header("Flip Rotation Status")]
-    [SerializeField] private float flipYRotationTime = 0.5f;
+    [SerializeField] private float flipYRotationTime;
 
     private Coroutine turnCoroutine;
 
@@ -32,7 +32,7 @@ public class CameraFollowOBJECT : MonoBehaviour
 
     public void CallTurn()
     {
-        LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime).setEaseInOutSine();
+        LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime).setEaseInOutCubic();
     }
     private IEnumerator FlipYLerp()
     {

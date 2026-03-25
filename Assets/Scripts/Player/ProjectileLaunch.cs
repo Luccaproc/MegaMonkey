@@ -4,16 +4,34 @@ using System.Collections;
 
 public class ProjectileLaunch : MonoBehaviour
 {
+    [Header("Shoot Inputs")]
+     private PlayerControls playerControls;
+    private void OnEnable()
+    {
+        playerControls.Enable();
+    }
+    private void OnDisable()
+    {
+        playerControls.Disable();
+    }
+    void Awake()
+    {
+        playerControls = new PlayerControls();
+    }
+    [Header("Shoot Variables")]
     public GameObject projectilePrefab;
     public Transform launchPoint;
-    private Animator anim;
-    public AudioSource shootSound;
-
-    PlayerMovement playerMovement;
-   // public PlayerMovement playerMovement;
-
     public float shootTime;
     public float shootCounter;
+
+    [Header("Animation")]
+    [SerializeField] private PlayerMovement playerMovement;
+    private Animator anim;
+    
+
+    [Header("Sounds")]
+    public AudioSource shootSound;
+   // public PlayerMovement playerMovement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -25,18 +43,19 @@ public class ProjectileLaunch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ((Input.GetKey(KeyCode.X) || Input.GetKey(KeyCode.Mouse0)) && shootCounter <= 0)
+        AnimatorStateInfo stateInfo = playerMovement.Anim.GetCurrentAnimatorStateInfo(0);
+
+        if (playerControls.Player.Shoot1.IsPressed() && shootCounter <= 0)
         {
             if (playerMovement.onGround)
             {
-                if (playerMovement.isRunning)
+                if (playerMovement.isRunning && !stateInfo.IsName("Shooting"))
                 {
                     anim.SetTrigger("isShooting");
                 }
                 else
                 {
-                    Instantiate(projectilePrefab, launchPoint.position, Quaternion.identity);
-                    shootSound.Play();
+                    Shoot(); 
                 }
                 shootCounter = shootTime;
             }

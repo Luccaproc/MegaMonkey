@@ -1,13 +1,13 @@
 using System;
 using Unity.VisualScripting;
-using UnityEditor;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
     [Header("Components")]
     private Rigidbody2D rb;
-    private Animator anim;
+    [SerializeField] private Animator anim;
+    public Animator Anim => anim;
 
     [Header("Layer Masks")]
     [SerializeField] private LayerMask groundLayer;
@@ -15,6 +15,26 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Audio Sources")]
     public AudioSource jumpSound;
+
+    [Header("Movement Inputs")]
+    private PlayerControls playerControls;
+    private Vector2 playerDirection;
+    private void OnEnable()
+    {
+        playerControls.Enable();
+    }
+    private void OnDisable()
+    {
+        playerControls.Disable();
+    }
+    void Awake()
+    {
+        playerControls = new PlayerControls();
+    }
+    void PlayerInput()
+    {
+        playerDirection = playerControls.Player.Move.ReadValue<Vector2>();
+    }
 
     [Header("Movement Variables")]
     [SerializeField] private float movementAcceleration = 70f;
@@ -37,6 +57,12 @@ public class PlayerMovement : MonoBehaviour
     private float hangTimeCounter;
     private float jumpBufferCounter;
     private bool canJump => jumpBufferCounter > 0f && hangTimeCounter > 0f;
+
+    [Header("Dash Variables")]
+    [SerializeField] private float dashSpeed;
+    [SerializeField] private float dashDuration;
+    private bool canDash;
+    private bool isDashing;
 
     [Header("Collision Variables")]
     [SerializeField] private float groundRaycastLenght;
@@ -62,9 +88,11 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        horizontalDirection = GetInput().x;
-        //Atualiza onde o X do personagem tá
-        if (Input.GetButtonDown("Jump"))
+        PlayerInput();
+
+        horizontalDirection = playerDirection.x;
+
+        if (playerControls.Player.Jump.IsPressed() && !isDashing)
         {
             jumpBufferCounter = jumpBufferLength;
         }
@@ -73,29 +101,49 @@ public class PlayerMovement : MonoBehaviour
             jumpBufferCounter -= Time.deltaTime;
         }
 
+        if (playerControls.Player.Dash.WasPressedThisFrame())
+        {
+            _ = HandleDash();
+        }
+
         anim.SetBool("isGrounded", onGround);
         anim.SetFloat("horizontalDirection", Mathf.Abs(horizontalDirection));
-        if (horizontalDirection < 0f && facingRight)
+
+        if (!isDashing)
         {
-            Flip();
+            if (horizontalDirection < 0f && facingRight)
+            {
+                Flip();
+            }
+            else if (horizontalDirection > 0f && !facingRight)
+            {
+                Flip();
+            }
         }
-        else if (horizontalDirection > 0f && !facingRight)
-        {
-            Flip();
-        }
+
         if (rb.linearVelocity.y < -0.1f && !onGround) // Usando uma pequena margem para evitar falsos positivos
         {
             //Animação de queda
+
             anim.SetBool("isJumping", false);
             anim.SetBool("isFalling", true);
         }
-        
+
 
     }
 
     private void FixedUpdate()
     {
         CheckColissions();
+
+        if (isDashing)
+        {
+            float direction = facingRight ? 1f : -1f;
+            Vector2 dashDirection = new Vector2(direction, 1f).normalized;
+            rb.linearVelocity = dashDirection * dashSpeed;
+            return;
+        }
+
         if (knockBackCounter <= 0)
         {
             MoveCharacter();
@@ -124,41 +172,44 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            ApplyAirLinearDrag();
-            FallMultiplier();
+            if (!isDashing)
+            {
+                ApplyAirLinearDrag();
+                FallMultiplier();
+            }
+
             hangTimeCounter -= Time.deltaTime;
         }
-        if (canJump) Jump();
+        if (canJump && !isDashing) Jump();
         if (horizontalDirection > 0f || horizontalDirection < 0f)
         {
             FlipCheck();
         }
-        
-    }
 
-    private Vector2 GetInput()
-    {
-        return new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-        //Retorna os vetores de cada input, WASD e setinhas
     }
 
     private void MoveCharacter()
     {
-        rb.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
-        //Adiciona a força que o boneco vai mexer, influencia a velocidade
-        if (Mathf.Abs(rb.linearVelocityX) > maxMoveSpeed)
-            rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocityX) * maxMoveSpeed, rb.linearVelocityY);
-        //Impede a velocidade de passar do maximo
+        if (!isDashing)
+        {
+            rb.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
+            //Adiciona a força que o boneco vai mexer, influencia a velocidade
+            if (Mathf.Abs(rb.linearVelocityX) > maxMoveSpeed)
+            {
+                rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocityX) * maxMoveSpeed, rb.linearVelocityY);
+            }
+            //Impede a velocidade de passar do maximo
 
-        if (Mathf.Abs(horizontalDirection) > 0.1f && onGround)
-        {
-            anim.SetBool("isRunning", true);
-            isRunning = true;
-        }
-        else
-        {
-            anim.SetBool("isRunning", false);
-            isRunning = false;
+            if (Mathf.Abs(horizontalDirection) > 0.1f && onGround)
+            {
+                anim.SetBool("isRunning", true);
+                isRunning = true;
+            }
+            else
+            {
+                anim.SetBool("isRunning", false);
+                isRunning = false;
+            }
         }
     }
 
@@ -169,7 +220,7 @@ public class PlayerMovement : MonoBehaviour
             rb.linearDamping = groundLinearDrag;
         }
         else
-        { 
+        {
             rb.linearDamping = 0;
         }
         //Aplica o Drag quando o personagem estiver no chão
@@ -203,7 +254,7 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.gravityScale = fallMultiplier;
         }
-        else if (rb.linearVelocityY > 0 && !Input.GetButton("Jump"))
+        else if (rb.linearVelocityY > 0 && !playerControls.Player.Jump.IsPressed())
         {
             rb.gravityScale = lowJumpFallMultiplier;
         }
@@ -213,6 +264,49 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private async Awaitable Dash()
+    {
+        isDashing = true;
+        float direction = facingRight ? 1f : -1f;
+
+        //Animação
+        anim.SetTrigger("Dash");
+        anim.SetBool("isDashing", true);
+
+        //Lembrar de colocar o audio aqui depois
+        float originalGravity = rb.gravityScale;
+        rb.gravityScale = 0;
+        rb.linearVelocity = Vector2.zero;
+        rb.linearVelocity = new Vector2(dashSpeed * direction, dashSpeed);
+
+        await Awaitable.WaitForSecondsAsync(dashDuration);
+
+        isDashing = false;
+        anim.SetBool("isDashing", false);
+        rb.gravityScale = originalGravity;
+    }
+
+    private async Awaitable HandleDash()
+    {
+        if (isDashing || !canDash) return;
+
+        await Dash();
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Dash"))
+        {
+            canDash = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Dash"))
+        {
+            canDash = false;
+        }
+    }
     private void FlipCheck()
     {
         if (horizontalDirection < 0f && facingRight)
@@ -220,8 +314,8 @@ public class PlayerMovement : MonoBehaviour
             Flip();
         }
         else if (horizontalDirection > 0f && !facingRight)
-        { 
-            Flip(); 
+        {
+            Flip();
         }
     }
     void Flip()
@@ -236,7 +330,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         else
-        { 
+        {
             Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
             transform.rotation = Quaternion.Euler(rotator);
             facingRight = !facingRight;
@@ -272,7 +366,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        Gizmos.color = Color.red; 
+        Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundRaycastLenght);
         //Desenha uma linha pra dar pra ver o Raycast
     }
