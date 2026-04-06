@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    private float timer;
+    private int frameCount;
+
     [Header("Components")]
     private Rigidbody2D rb;
     [SerializeField] private Animator anim;
@@ -88,6 +91,18 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        //check de FPS
+        timer += Time.deltaTime;
+        frameCount++;
+
+        if (timer >= 1f)
+        {
+            float fps = frameCount / timer;
+            Debug.Log("FPS médio: " + Mathf.Round(fps));
+
+            timer = 0f;
+            frameCount = 0;
+        }
         PlayerInput();
 
         horizontalDirection = playerDirection.x;
