@@ -75,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Camera Variables")]
     private CameraFollowOBJECT cameraFollowObject;
     [SerializeField] private GameObject cameraFollowGO;
+    [SerializeField] private CameraManager cameraManager;
+    private float fallSpeedYDampingChangeThreshold;
 
     [Header("Knockback Variables")]
     public float knockBackForce;
@@ -87,6 +89,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         cameraFollowObject = cameraFollowGO.GetComponent<CameraFollowOBJECT>();
+        fallSpeedYDampingChangeThreshold = cameraManager.fallSpeedYDampingChangeThreshold;
     }
 
     private void Update()
@@ -105,6 +108,11 @@ public class PlayerMovement : MonoBehaviour
         }
         PlayerInput();
 
+        if (playerControls.Player.Menu.WasPressedThisFrame())
+        {
+            Application.Quit();
+        }
+
         horizontalDirection = playerDirection.x;
 
         if (playerControls.Player.Jump.IsPressed() && !isDashing)
@@ -119,6 +127,20 @@ public class PlayerMovement : MonoBehaviour
         if (playerControls.Player.Dash.WasPressedThisFrame())
         {
             _ = HandleDash();
+        }
+
+        //Camera
+        //If we are falling past a certaind speed threshold
+        float yVel = rb.linearVelocityY;
+
+        // histerese pra evitar flicker/snap
+        if (yVel < -2f)
+        {
+            cameraManager.SetFalling(true);
+        }
+        else if (yVel > 2f)
+        {
+            cameraManager.SetFalling(false);
         }
 
         anim.SetBool("isGrounded", onGround);

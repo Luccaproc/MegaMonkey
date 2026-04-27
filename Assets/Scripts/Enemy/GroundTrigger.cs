@@ -2,11 +2,16 @@ using UnityEngine;
 
 public class GroundTrigger : MonoBehaviour
 {
-    private ThompSmash enemy;
+    [SerializeField] private ThompSmash enemy;
+    
 
-    void Start()
+    void Awake()
     {
         enemy = GetComponentInParent<ThompSmash>();
+    }
+    void Start()
+    {
+        transform.SetParent(null);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

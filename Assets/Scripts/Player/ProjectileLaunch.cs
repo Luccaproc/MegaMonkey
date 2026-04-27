@@ -5,7 +5,7 @@ using System.Collections;
 public class ProjectileLaunch : MonoBehaviour
 {
     [Header("Shoot Inputs")]
-     private PlayerControls playerControls;
+    private PlayerControls playerControls;
     private void OnEnable()
     {
         playerControls.Enable();
@@ -27,11 +27,11 @@ public class ProjectileLaunch : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private PlayerMovement playerMovement;
     private Animator anim;
-    
+
 
     [Header("Sounds")]
     public AudioSource shootSound;
-   // public PlayerMovement playerMovement;
+    // public PlayerMovement playerMovement;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -47,18 +47,8 @@ public class ProjectileLaunch : MonoBehaviour
 
         if (playerControls.Player.Shoot1.IsPressed() && shootCounter <= 0)
         {
-            if (playerMovement.onGround)
-            {
-                if (playerMovement.isRunning && !stateInfo.IsName("Shooting"))
-                {
-                    anim.SetTrigger("isShooting");
-                }
-                else
-                {
-                    Shoot(); 
-                }
-                shootCounter = shootTime;
-            }
+            Shoot();
+            shootCounter = shootTime;
         }
         shootCounter -= Time.deltaTime;
     }

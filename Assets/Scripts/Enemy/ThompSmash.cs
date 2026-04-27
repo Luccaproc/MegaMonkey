@@ -3,6 +3,8 @@ using UnityEngine;
 public class ThompSmash : MonoBehaviour
 {
     private Rigidbody2D rb;
+    [SerializeField] private Animator anim;
+    public Animator Anim => anim;
 
     public float fallGravity = 2f;
     public float riseSpeed = 3f;
@@ -14,6 +16,7 @@ public class ThompSmash : MonoBehaviour
 
     void Start()
     {
+        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0;
 
@@ -24,6 +27,7 @@ public class ThompSmash : MonoBehaviour
     {
         if (isRising)
         {
+            anim.SetTrigger("isRising");
             float distance = Vector2.Distance(transform.position, startPosition);
 
             if (distance < 0.1f)
@@ -46,16 +50,17 @@ public class ThompSmash : MonoBehaviour
         {
             rb.gravityScale = fallGravity;
             isFalling = true;
+            anim.SetTrigger("isFalling");
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (collision.CompareTag("Ground"))
     {
-        if (collision.gameObject.CompareTag("Ground"))
-        {
-            isFalling = false;
-            isRising = true;
-            rb.gravityScale = 0;
-        }
+        isFalling = false;
+        isRising = true;
+        rb.gravityScale = 0;
     }
+}
 }

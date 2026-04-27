@@ -44,17 +44,25 @@ public class Projectile : MonoBehaviour
         {
             projectileRb.linearVelocity = new Vector2(-speed, 0);
         }
-        
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
     {
         Destroy(gameObject);
-        if (collision.gameObject.tag == "Enemy")if (collision.gameObject.tag == "Enemy")
+        if (collision.gameObject.tag == "Enemy")
         {
             enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
             enemyHealth.TakeDamage(damage);
         }
-        
+
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
