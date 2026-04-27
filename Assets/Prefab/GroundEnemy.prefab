@@ -205,6 +205,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
+  damageParticles: {fileID: 5285521541342775950, guid: 5ba5fe43a2471a74eb71b985103ab132, type: 3}
   health: 0
 --- !u!70 &183768719763389638
 CapsuleCollider2D:
