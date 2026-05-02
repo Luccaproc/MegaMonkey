@@ -114,6 +114,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -127,6 +128,8 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+=======
+>>>>>>> 9fdd166918e327996932a031974d3a3daac6287b
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -297,6 +300,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
     nameFileIdTable:
       health bar mamacaco_0: -9161405679322199192
       health bar mamacaco_1: 2110622551459905542
@@ -305,6 +309,9 @@ TextureImporter:
       health bar mamacaco_4: 3423781213066258430
       health bar mamacaco_5: 7695402203680670564
       health bar mamacaco_6: -1262916893918884151
+=======
+    nameFileIdTable: {}
+>>>>>>> 9fdd166918e327996932a031974d3a3daac6287b
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
