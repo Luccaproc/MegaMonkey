@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      backround_vermelho_0: -3538418067705285704
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

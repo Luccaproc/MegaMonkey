@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Nova_Tela_de_menu__0: 4728873527719378266
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
