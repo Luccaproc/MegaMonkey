@@ -23,7 +23,7 @@ public class BackgroundController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float distance = (cam.transform.position.x + 50) * parallaxSpeed;
+        float distance = cam.transform.position.x * parallaxSpeed;
         float movement = cam.transform.position.x * (1 - parallaxSpeed);
 
         // ===== Y (única mudança) =====

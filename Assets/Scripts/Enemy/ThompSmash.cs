@@ -1,3 +1,4 @@
+using Unity.Cinemachine;
 using UnityEngine;
 
 public class ThompSmash : MonoBehaviour
@@ -14,6 +15,10 @@ public class ThompSmash : MonoBehaviour
 
     private Vector3 startPosition;
 
+    private CinemachineImpulseSource impulseSource;
+
+    private AudioSource thompSmash;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -21,6 +26,11 @@ public class ThompSmash : MonoBehaviour
         rb.gravityScale = 0;
 
         startPosition = transform.position;
+
+        impulseSource = GetComponent<CinemachineImpulseSource>();
+
+        thompSmash = GetComponentInChildren<AudioSource>();
+    
     }
 
     void Update()
@@ -55,12 +65,17 @@ public class ThompSmash : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
-{
-    if (collision.CompareTag("Ground"))
     {
-        isFalling = false;
-        isRising = true;
-        rb.gravityScale = 0;
+        if (collision.CompareTag("Ground"))
+        {
+            if (thompSmash != null)
+                thompSmash.Play();
+
+            CameraShakeManager.instance.CameraShake(impulseSource);
+
+            isFalling = false;
+            isRising = true;
+            rb.gravityScale = 0;
+        }
     }
-}
 }

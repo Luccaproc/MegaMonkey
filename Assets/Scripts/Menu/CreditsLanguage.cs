@@ -9,15 +9,9 @@ public class CreditsLanguage : MonoBehaviour
     {
         string language = PlayerPrefs.GetString("Language", "PT");
 
-        if (language == "PT")
-        {
-            creditosPortugues.SetActive(true);
-            creditsEnglish.SetActive(false);
-        }
-        else if (language == "EN")
-        {
-            creditosPortugues.SetActive(false);
-            creditsEnglish.SetActive(true);
-        }
+        bool isPortuguese = language == "PT";
+
+        creditosPortugues.SetActive(isPortuguese);
+        creditsEnglish.SetActive(!isPortuguese);
     }
 }

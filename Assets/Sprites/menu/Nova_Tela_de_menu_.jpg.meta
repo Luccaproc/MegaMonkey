@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b3123048a7ccfc44a8e8db1b57f19d8c
+guid: a432d9c29fe487c4abc98606c221400f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -936944014169022787
-    second: Creditos Megamonkeypng_0
+      213: 4728873527719378266
+    second: Nova_Tela_de_menu__0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Creditos Megamonkeypng_0
+      name: Nova_Tela_de_menu__0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1325
-        height: 726
+        width: 1340
+        height: 739
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dbed60d126e4ff2f0800000000000000
-      internalID: -936944014169022787
+      spriteID: a5d36773b6550a140800000000000000
+      internalID: 4728873527719378266
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Creditos Megamonkeypng_0: -936944014169022787
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

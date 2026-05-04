@@ -16,24 +16,25 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private LayerMask groundLayer;
     [SerializeField] private LayerMask enemyLayer;
 
+    [Header("Jump Delay")]
+    [SerializeField] private float jumpCollisionDelay = 0.2f;
+    private float jumpDelayCounter;
+
     [Header("Audio Sources")]
     public AudioSource jumpSound;
 
     [Header("Movement Inputs")]
     private PlayerControls playerControls;
     private Vector2 playerDirection;
-    private void OnEnable()
-    {
-        playerControls.Enable();
-    }
-    private void OnDisable()
-    {
-        playerControls.Disable();
-    }
+
+    private void OnEnable() => playerControls.Enable();
+    private void OnDisable() => playerControls.Disable();
+
     void Awake()
     {
         playerControls = new PlayerControls();
     }
+
     void PlayerInput()
     {
         playerDirection = playerControls.Player.Move.ReadValue<Vector2>();
@@ -43,7 +44,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float movementAcceleration = 70f;
     [SerializeField] private float maxMoveSpeed = 12f;
     [SerializeField] private float groundLinearDrag = 7f;
-    //linearDrag é o que faz o personagem desacelerar antes de parar
     public bool isRunning;
     private float horizontalDirection;
     private bool changingDirection => (rb.linearVelocityX > 0f && horizontalDirection < 0f) || (rb.linearVelocityX < 0f && horizontalDirection > 0f);
@@ -94,7 +94,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        //check de FPS
         timer += Time.deltaTime;
         frameCount++;
 
@@ -102,11 +101,14 @@ public class PlayerMovement : MonoBehaviour
         {
             float fps = frameCount / timer;
             Debug.Log("FPS médio: " + Mathf.Round(fps));
-
             timer = 0f;
             frameCount = 0;
         }
+
         PlayerInput();
+
+        // ⏳ decrementa o delay do pulo
+        jumpDelayCounter -= Time.deltaTime;
 
         if (playerControls.Player.Menu.WasPressedThisFrame())
         {
@@ -129,19 +131,12 @@ public class PlayerMovement : MonoBehaviour
             _ = HandleDash();
         }
 
-        //Camera
-        //If we are falling past a certaind speed threshold
         float yVel = rb.linearVelocityY;
 
-        // histerese pra evitar flicker/snap
         if (yVel < -2f)
-        {
             cameraManager.SetFalling(true);
-        }
         else if (yVel > 2f)
-        {
             cameraManager.SetFalling(false);
-        }
 
         anim.SetBool("isGrounded", onGround);
         anim.SetFloat("horizontalDirection", Mathf.Abs(horizontalDirection));
@@ -149,24 +144,16 @@ public class PlayerMovement : MonoBehaviour
         if (!isDashing)
         {
             if (horizontalDirection < 0f && facingRight)
-            {
                 Flip();
-            }
             else if (horizontalDirection > 0f && !facingRight)
-            {
                 Flip();
-            }
         }
 
-        if (rb.linearVelocity.y < -0.1f && !onGround) // Usando uma pequena margem para evitar falsos positivos
+        if (rb.linearVelocity.y < -0.1f && !onGround)
         {
-            //Animação de queda
-
             anim.SetBool("isJumping", false);
             anim.SetBool("isFalling", true);
         }
-
-
     }
 
     private void FixedUpdate()
@@ -187,14 +174,10 @@ public class PlayerMovement : MonoBehaviour
         }
         else
         {
-            if (knockFromRight)
-            {
-                rb.linearVelocity = new Vector2(-knockBackForce, knockBackForce);
-            }
-            else
-            {
-                rb.linearVelocity = new Vector2(knockBackForce, knockBackForce);
-            }
+            rb.linearVelocity = knockFromRight
+                ? new Vector2(-knockBackForce, knockBackForce)
+                : new Vector2(knockBackForce, knockBackForce);
+
             knockBackCounter -= Time.deltaTime;
         }
 
@@ -203,7 +186,6 @@ public class PlayerMovement : MonoBehaviour
             ApplyGroundLinearDrag();
             hangTimeCounter = hangTime;
 
-            //Animação
             anim.SetBool("isJumping", false);
             anim.SetBool("isFalling", false);
         }
@@ -217,12 +199,17 @@ public class PlayerMovement : MonoBehaviour
 
             hangTimeCounter -= Time.deltaTime;
         }
-        if (canJump && !isDashing) Jump();
-        if (horizontalDirection > 0f || horizontalDirection < 0f)
+
+        // 🚫 bloqueio de pulo com delay
+        if (canJump && !isDashing && jumpDelayCounter <= 0f)
+        {
+            Jump();
+        }
+
+        if (horizontalDirection != 0f)
         {
             FlipCheck();
         }
-
     }
 
     private void MoveCharacter()
@@ -230,12 +217,11 @@ public class PlayerMovement : MonoBehaviour
         if (!isDashing)
         {
             rb.AddForce(new Vector2(horizontalDirection, 0f) * movementAcceleration);
-            //Adiciona a força que o boneco vai mexer, influencia a velocidade
+
             if (Mathf.Abs(rb.linearVelocityX) > maxMoveSpeed)
             {
                 rb.linearVelocity = new Vector2(Mathf.Sign(rb.linearVelocityX) * maxMoveSpeed, rb.linearVelocityY);
             }
-            //Impede a velocidade de passar do maximo
 
             if (Mathf.Abs(horizontalDirection) > 0.1f && onGround)
             {
@@ -253,20 +239,14 @@ public class PlayerMovement : MonoBehaviour
     private void ApplyGroundLinearDrag()
     {
         if (Math.Abs(horizontalDirection) < 0.4f || changingDirection)
-        {
             rb.linearDamping = groundLinearDrag;
-        }
         else
-        {
             rb.linearDamping = 0;
-        }
-        //Aplica o Drag quando o personagem estiver no chão
     }
 
     private void ApplyAirLinearDrag()
     {
         rb.linearDamping = airLinearDrag;
-        //Aplica o Drag quando o personagem estiver no ar
     }
 
     private void Jump()
@@ -277,10 +257,8 @@ public class PlayerMovement : MonoBehaviour
         hangTimeCounter = 0f;
         jumpBufferCounter = 0f;
 
-        //Audio
         jumpSound.Play();
 
-        //Animação
         anim.SetBool("isJumping", true);
         anim.SetBool("isFalling", false);
     }
@@ -288,17 +266,11 @@ public class PlayerMovement : MonoBehaviour
     private void FallMultiplier()
     {
         if (rb.linearVelocityY < 0)
-        {
             rb.gravityScale = fallMultiplier;
-        }
         else if (rb.linearVelocityY > 0 && !playerControls.Player.Jump.IsPressed())
-        {
             rb.gravityScale = lowJumpFallMultiplier;
-        }
         else
-        {
             rb.gravityScale = 1f;
-        }
     }
 
     private async Awaitable Dash()
@@ -306,11 +278,9 @@ public class PlayerMovement : MonoBehaviour
         isDashing = true;
         float direction = facingRight ? 1f : -1f;
 
-        //Animação
         anim.SetTrigger("Dash");
         anim.SetBool("isDashing", true);
 
-        //Lembrar de colocar o audio aqui depois
         float originalGravity = rb.gravityScale;
         rb.gravityScale = 0;
         rb.linearVelocity = Vector2.zero;
@@ -326,85 +296,73 @@ public class PlayerMovement : MonoBehaviour
     private async Awaitable HandleDash()
     {
         if (isDashing || !canDash) return;
-
         await Dash();
     }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Dash"))
-        {
             canDash = true;
-        }
     }
 
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Dash"))
-        {
             canDash = false;
+    }
+
+    // 💥 DETECÇÃO DE COLISÃO GLOBAL
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (((1 << collision.gameObject.layer) & groundLayer) != 0)
+        {
+            jumpDelayCounter = jumpCollisionDelay;
         }
     }
+
     private void FlipCheck()
     {
         if (horizontalDirection < 0f && facingRight)
-        {
             Flip();
-        }
         else if (horizontalDirection > 0f && !facingRight)
-        {
             Flip();
-        }
     }
+
     void Flip()
     {
         if (facingRight)
         {
-            Vector3 rotator = new Vector3(transform.rotation.x, 180f, transform.rotation.z);
-            transform.rotation = Quaternion.Euler(rotator);
-            facingRight = !facingRight;
-
-            cameraFollowObject.CallTurn();
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
-
         else
         {
-            Vector3 rotator = new Vector3(transform.rotation.x, 0f, transform.rotation.z);
-            transform.rotation = Quaternion.Euler(rotator);
-            facingRight = !facingRight;
-
-            cameraFollowObject.CallTurn();
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
+
+        facingRight = !facingRight;
+        cameraFollowObject.CallTurn();
     }
 
     private void CheckColissions()
     {
-        // Pega o collider pra medir largura
         float halfWidth = GetComponent<Collider2D>().bounds.extents.x;
-
-        // Offset de 30% da largura para cada lado
         float offset = halfWidth * 0.3f;
 
-        // Calcula posições dos pés
         Vector2 leftOrigin = new Vector2(transform.position.x - offset, transform.position.y);
         Vector2 rightOrigin = new Vector2(transform.position.x + offset, transform.position.y);
 
-        // Raycasts para cada lado
         bool leftHitGround = Physics2D.Raycast(leftOrigin, Vector2.down, groundRaycastLenght, groundLayer);
         bool rightHitGround = Physics2D.Raycast(rightOrigin, Vector2.down, groundRaycastLenght, groundLayer);
 
         bool leftHitEnemy = Physics2D.Raycast(leftOrigin, Vector2.down, groundRaycastLenght, enemyLayer);
         bool rightHitEnemy = Physics2D.Raycast(rightOrigin, Vector2.down, groundRaycastLenght, enemyLayer);
 
-        // O player está no chão se qualquer pé tocar
         onGround = leftHitGround || rightHitGround || leftHitEnemy || rightHitEnemy;
-
-        //Desenha o Raycast que verifica colisão com a layer do chão
     }
 
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
         Gizmos.DrawLine(transform.position, transform.position + Vector3.down * groundRaycastLenght);
-        //Desenha uma linha pra dar pra ver o Raycast
     }
 }

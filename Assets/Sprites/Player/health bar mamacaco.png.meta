@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -93,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -114,7 +114,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-<<<<<<< HEAD
   - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
@@ -128,8 +127,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-=======
->>>>>>> 9fdd166918e327996932a031974d3a3daac6287b
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -137,20 +134,20 @@ TextureImporter:
       name: health bar mamacaco_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 12
-        width: 43
-        height: 10
+        x: 7
+        y: 22
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 86b01c8e2162cd080800000000000000
-      internalID: -9161405679322199192
+      spriteID: 356a47e51623d9049a292e13a23d08e0
+      internalID: -922809695
       vertices: []
       indices: 
       edges: []
@@ -159,20 +156,20 @@ TextureImporter:
       name: health bar mamacaco_1
       rect:
         serializedVersion: 2
-        x: 6
-        y: 21
-        width: 9
-        height: 9
+        x: 18
+        y: 22
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 60042ba27007a4d10800000000000000
-      internalID: 2110622551459905542
+      spriteID: 5d2a7f7cfaad78243b0cbf0448b346fe
+      internalID: 1807908181
       vertices: []
       indices: 
       edges: []
@@ -181,20 +178,20 @@ TextureImporter:
       name: health bar mamacaco_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 21
-        width: 9
-        height: 9
+        x: 29
+        y: 22
+        width: 7
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d0474a2d956baee0800000000000000
-      internalID: -1248792745971597097
+      spriteID: 7447edd04246beb4f915a3acfcdbf163
+      internalID: 1075283955
       vertices: []
       indices: 
       edges: []
@@ -203,20 +200,20 @@ TextureImporter:
       name: health bar mamacaco_3
       rect:
         serializedVersion: 2
-        x: 28
-        y: 21
-        width: 9
-        height: 9
+        x: 1
+        y: 13
+        width: 41
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 48f36d825f8d052f0800000000000000
-      internalID: -986049770930421884
+      spriteID: 00f915680a3b5f64c864f2d7159eb492
+      internalID: -1651000851
       vertices: []
       indices: 
       edges: []
@@ -225,20 +222,20 @@ TextureImporter:
       name: health bar mamacaco_4
       rect:
         serializedVersion: 2
-        x: 6
-        y: 5
-        width: 10
-        height: 8
+        x: 7
+        y: 6
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef768719fd6b38f20800000000000000
-      internalID: 3423781213066258430
+      spriteID: 9b2290c96b26f7b438fd507546c9dabf
+      internalID: 587695552
       vertices: []
       indices: 
       edges: []
@@ -247,20 +244,20 @@ TextureImporter:
       name: health bar mamacaco_5
       rect:
         serializedVersion: 2
-        x: 17
-        y: 5
-        width: 9
-        height: 8
+        x: 18
+        y: 6
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4630522488f8bca60800000000000000
-      internalID: 7695402203680670564
+      spriteID: fd7af1aa40574ec4e8e662080efe45f8
+      internalID: -289568575
       vertices: []
       indices: 
       edges: []
@@ -269,20 +266,20 @@ TextureImporter:
       name: health bar mamacaco_6
       rect:
         serializedVersion: 2
-        x: 27
-        y: 5
-        width: 10
-        height: 8
+        x: 28
+        y: 6
+        width: 8
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ce0025b6c7397ee0800000000000000
-      internalID: -1262916893918884151
+      spriteID: 1cb2f434d3dce6646baa063a564e9fe8
+      internalID: -416630997
       vertices: []
       indices: 
       edges: []
@@ -291,7 +288,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9b8e414636189841824b3c822aaec11
     internalID: 0
     vertices: []
     indices: 
@@ -300,18 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-<<<<<<< HEAD
     nameFileIdTable:
-      health bar mamacaco_0: -9161405679322199192
-      health bar mamacaco_1: 2110622551459905542
-      health bar mamacaco_2: -1248792745971597097
-      health bar mamacaco_3: -986049770930421884
-      health bar mamacaco_4: 3423781213066258430
-      health bar mamacaco_5: 7695402203680670564
-      health bar mamacaco_6: -1262916893918884151
-=======
-    nameFileIdTable: {}
->>>>>>> 9fdd166918e327996932a031974d3a3daac6287b
+      health bar mamacaco_0: -922809695
+      health bar mamacaco_1: 1807908181
+      health bar mamacaco_2: 1075283955
+      health bar mamacaco_3: -1651000851
+      health bar mamacaco_4: 587695552
+      health bar mamacaco_5: -289568575
+      health bar mamacaco_6: -416630997
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
