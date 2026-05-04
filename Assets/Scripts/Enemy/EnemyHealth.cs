@@ -5,6 +5,8 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField] public int maxHealth;
     [SerializeField] private ParticleSystem damageParticles;
 
+    private AudioSource damageSound;
+
     private Transform player;
 
     public int health;
@@ -14,6 +16,8 @@ public class EnemyHealth : MonoBehaviour
     {
         health = maxHealth;
 
+        damageSound = GetComponentInChildren<AudioSource>();
+
         // pega o player (assumindo que tem tag "Player")
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
@@ -22,6 +26,7 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= damage;
         SpawnDamageParticles();
+        damageSound.Play();
 
         if (health <= 0)
         {

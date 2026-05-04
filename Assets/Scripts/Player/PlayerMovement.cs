@@ -22,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
 
     [Header("Audio Sources")]
     public AudioSource jumpSound;
+    public AudioSource dashSound;
 
     [Header("Movement Inputs")]
     private PlayerControls playerControls;
@@ -279,6 +280,7 @@ public class PlayerMovement : MonoBehaviour
         float direction = facingRight ? 1f : -1f;
 
         anim.SetTrigger("Dash");
+        jumpSound.Play();
         anim.SetBool("isDashing", true);
 
         float originalGravity = rb.gravityScale;
