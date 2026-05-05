@@ -139,10 +139,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 54
+        width: 53
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -159,12 +159,12 @@ TextureImporter:
       name: idle_com_arma_1
       rect:
         serializedVersion: 2
-        x: 53
+        x: 54
         y: 0
-        width: 54
+        width: 52
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,10 +183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 107
         y: 0
-        width: 54
+        width: 53
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,10 +205,10 @@ TextureImporter:
         serializedVersion: 2
         x: 161
         y: 0
-        width: 54
+        width: 53
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -225,12 +225,12 @@ TextureImporter:
       name: idle_com_arma_4
       rect:
         serializedVersion: 2
-        x: 214
+        x: 215
         y: 0
-        width: 54
+        width: 52
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -247,12 +247,12 @@ TextureImporter:
       name: idle_com_arma_5
       rect:
         serializedVersion: 2
-        x: 267
+        x: 268
         y: 0
-        width: 54
+        width: 52
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -269,12 +269,12 @@ TextureImporter:
       name: idle_com_arma_6
       rect:
         serializedVersion: 2
-        x: 319
+        x: 320
         y: 0
-        width: 54
+        width: 52
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: idle_com_arma_7
       rect:
         serializedVersion: 2
-        x: 371
+        x: 372
         y: 0
-        width: 54
+        width: 53
         height: 40
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -313,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b345760f8a4e2064d98502e1f0845d83
     internalID: 0
     vertices: []
     indices: 

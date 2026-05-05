@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class BackgroundController : MonoBehaviour
 {
@@ -8,7 +7,7 @@ public class BackgroundController : MonoBehaviour
     public GameObject cam;
     [SerializeField] public float parallaxSpeed;
 
-    // NOVO (Y)
+    // Y
     private float yOffset;
     public float smoothSpeed = 10f;
 
@@ -17,7 +16,12 @@ public class BackgroundController : MonoBehaviour
         startPosition = transform.position.x;
         length = GetComponent<SpriteRenderer>().bounds.size.x;
 
-        // Offset inicial do Y
+        // 🔥 alinha com a câmera no início
+        Vector3 pos = transform.position;
+        pos.y = cam.transform.position.y;
+        transform.position = pos;
+
+        // calcula offset depois (vai dar 0)
         yOffset = transform.position.y - cam.transform.position.y;
     }
 
@@ -26,7 +30,6 @@ public class BackgroundController : MonoBehaviour
         float distance = cam.transform.position.x * parallaxSpeed;
         float movement = cam.transform.position.x * (1 - parallaxSpeed);
 
-        // ===== Y (única mudança) =====
         float targetY = cam.transform.position.y + yOffset;
 
         float smoothY = Mathf.Lerp(
@@ -34,11 +37,10 @@ public class BackgroundController : MonoBehaviour
             targetY,
             smoothSpeed * Time.deltaTime
         );
-        // =============================
 
         transform.position = new Vector3(
-            startPosition + distance, // X ORIGINAL
-            smoothY,                  // só isso mudou
+            startPosition + distance,
+            smoothY,
             transform.position.z
         );
 

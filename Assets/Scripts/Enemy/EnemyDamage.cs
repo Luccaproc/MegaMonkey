@@ -3,8 +3,23 @@ using UnityEngine;
 public class EnemyDamage : MonoBehaviour
 {
     public int damage;
-    public PlayerHealth playerHealth;
-    public PlayerMovement playerMovement;
+    private PlayerHealth playerHealth;
+    private PlayerMovement playerMovement;
+
+    public void Start()
+{
+    GameObject player = GameObject.FindWithTag("Player");
+
+    if (player != null)
+    {
+        playerHealth = player.GetComponent<PlayerHealth>();
+        playerMovement = player.GetComponent<PlayerMovement>();
+    }
+    else
+    {
+        Debug.LogWarning("Player não encontrado na cena!");
+    }
+}
 
     void OnCollisionEnter2D(Collision2D collision)
     {

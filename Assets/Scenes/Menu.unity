@@ -532,6 +532,101 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &840980281
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 840980283}
+  - component: {fileID: 840980282}
+  m_Layer: 0
+  m_Name: LanguageUI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &840980282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840980281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1b110e026cb8c549879005700aaa225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &840980283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 840980281}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 472.6516, y: 344.043, z: -4.320331}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &913026632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 913026634}
+  - component: {fileID: 913026633}
+  m_Layer: 0
+  m_Name: LanguageApplier
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &913026633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913026632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56b83a5e1703284ca01c583ef67b000, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  imagePairs:
+  - targetImage: {fileID: 758097625}
+    portugueseSprite: {fileID: 2734021628894367902, guid: 4618290153bc1af4f93fe2b9380fa73a, type: 3}
+    englishSprite: {fileID: 3794550611322748858, guid: 32ff0d143f9bd5c48861f8f0091efff0, type: 3}
+  - targetImage: {fileID: 1731392939}
+    portugueseSprite: {fileID: -4143733472230448762, guid: 93e8199b4109bae48b58e3ec1b7219bd, type: 3}
+    englishSprite: {fileID: -3560698593848636649, guid: 2b278950387ebad459d08141f42805a6, type: 3}
+--- !u!4 &913026634
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 913026632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 627.69165, y: 242.78593, z: -4.2155027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1110147621
 GameObject:
   m_ObjectHideFlags: 0
@@ -693,8 +788,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1309106108}
-        m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
+      - m_Target: {fileID: 840980282}
+        m_TargetAssemblyTypeName: LanguageUI, Assembly-CSharp
         m_MethodName: SetPortuguese
         m_Mode: 1
         m_Arguments:
@@ -772,12 +867,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9b5553a24d88545942e286cb728447, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jogarImage: {fileID: 758097625}
-  creditosImage: {fileID: 1731392939}
-  jogar: {fileID: 2734021628894367902, guid: 4618290153bc1af4f93fe2b9380fa73a, type: 3}
-  play: {fileID: 3794550611322748858, guid: 32ff0d143f9bd5c48861f8f0091efff0, type: 3}
-  creditos: {fileID: -4143733472230448762, guid: 93e8199b4109bae48b58e3ec1b7219bd, type: 3}
-  credits: {fileID: -3560698593848636649, guid: 2b278950387ebad459d08141f42805a6, type: 3}
 --- !u!4 &1309106109
 Transform:
   m_ObjectHideFlags: 0
@@ -1218,8 +1307,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1309106108}
-        m_TargetAssemblyTypeName: LanguageManager, Assembly-CSharp
+      - m_Target: {fileID: 840980282}
+        m_TargetAssemblyTypeName: LanguageUI, Assembly-CSharp
         m_MethodName: SetEnglish
         m_Mode: 1
         m_Arguments:
@@ -1443,3 +1532,5 @@ SceneRoots:
   - {fileID: 2143415704}
   - {fileID: 1309106109}
   - {fileID: 1539824689}
+  - {fileID: 913026634}
+  - {fileID: 840980283}

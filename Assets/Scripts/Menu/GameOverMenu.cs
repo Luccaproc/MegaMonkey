@@ -5,6 +5,11 @@ public class GameOverMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+        SceneManager.LoadSceneAsync(1);
+    }
+
+    public void Menu()
+    {
         SceneManager.LoadSceneAsync(0);
     }
 }

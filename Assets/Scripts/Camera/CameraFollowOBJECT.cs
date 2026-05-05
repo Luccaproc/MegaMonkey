@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Diagnostics;
 using UnityEngine;
 
 public class CameraFollowOBJECT : MonoBehaviour
@@ -10,30 +9,39 @@ public class CameraFollowOBJECT : MonoBehaviour
     [Header("Flip Rotation Status")]
     [SerializeField] private float flipYRotationTime;
 
-    private Coroutine turnCoroutine;
-
     private PlayerMovement player;
-
     private bool facingRight;
+
+    private bool hasInitialized = false;
 
     private void Awake()
     {
-        player = playerTransform.gameObject.GetComponent<PlayerMovement>();
-
+        player = playerTransform.GetComponent<PlayerMovement>();
         facingRight = player.facingRight;
     }
 
-    // Update is called once per frame
-    private void Update()
+    private void LateUpdate()
     {
-        //Faz o CameraFollowOBJECT seguir o player
+        if (playerTransform == null) return;
+
+        // 🔥 primeira vez: teleporta instantaneamente
+        if (!hasInitialized)
+        {
+            transform.position = playerTransform.position;
+            hasInitialized = true;
+            return;
+        }
+
+        // depois segue normalmente
         transform.position = playerTransform.position;
     }
 
     public void CallTurn()
     {
-        LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime).setEaseInOutCubic();
+        LeanTween.rotateY(gameObject, DetermineEndRotation(), flipYRotationTime)
+            .setEaseInOutCubic();
     }
+
     private IEnumerator FlipYLerp()
     {
         float startRotation = transform.localEulerAngles.y;
@@ -54,14 +62,6 @@ public class CameraFollowOBJECT : MonoBehaviour
     private float DetermineEndRotation()
     {
         facingRight = !facingRight;
-
-        if (facingRight)
-        {
-            return 180f;
-        }
-        else
-        {
-            return 0f;
-        }
+        return facingRight ? 180f : 0f;
     }
 }

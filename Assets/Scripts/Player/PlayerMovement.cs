@@ -111,11 +111,6 @@ public class PlayerMovement : MonoBehaviour
         // ⏳ decrementa o delay do pulo
         jumpDelayCounter -= Time.deltaTime;
 
-        if (playerControls.Player.Menu.WasPressedThisFrame())
-        {
-            Application.Quit();
-        }
-
         horizontalDirection = playerDirection.x;
 
         if (playerControls.Player.Jump.IsPressed() && !isDashing)

@@ -26,7 +26,7 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= damage;
         SpawnDamageParticles();
-        damageSound.Play();
+        //damageSound.Play();
 
         if (health <= 0)
         {

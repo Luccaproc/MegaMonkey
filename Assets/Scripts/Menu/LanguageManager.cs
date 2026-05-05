@@ -1,63 +1,53 @@
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
 
 public class LanguageManager : MonoBehaviour
 {
-    public Image jogarImage;
-    public Image creditosImage;
+    public static LanguageManager Instance;
 
-    public Sprite jogar;
-    public Sprite play;
+    public string CurrentLanguage { get; private set; }
 
-    public Sprite creditos;
-    public Sprite credits;
-
-    void Start()
+    private void Awake()
     {
-        // Pega idioma salvo (default = PT)
-        string language = PlayerPrefs.GetString("Language", "PT");
-
-        if (language == "PT")
+        if (Instance == null)
         {
-            ApplyPortuguese();
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+
+            CurrentLanguage = PlayerPrefs.GetString("Language", "PT");
         }
         else
         {
-            ApplyEnglish();
+            Destroy(gameObject);
         }
     }
 
     public void SetPortuguese()
     {
-        PlayerPrefs.SetString("Language", "PT");
-        PlayerPrefs.Save();
-
-        ApplyPortuguese();
+        SetLanguage("PT");
     }
 
     public void SetEnglish()
     {
-        PlayerPrefs.SetString("Language", "EN");
+        SetLanguage("EN");
+    }
+
+    private void SetLanguage(string lang)
+    {
+        CurrentLanguage = lang;
+
+        PlayerPrefs.SetString("Language", lang);
         PlayerPrefs.Save();
 
-        ApplyEnglish();
+        ApplyLanguageToScene(); // 🔥 força atualização
     }
 
-    void ApplyPortuguese()
+    private void ApplyLanguageToScene()
     {
-        jogarImage.sprite = jogar;
-        creditosImage.sprite = creditos;
-    }
+        LanguageApplier[] appliers = FindObjectsOfType<LanguageApplier>(true);
 
-    void ApplyEnglish()
-    {
-        jogarImage.sprite = play;
-        creditosImage.sprite = credits;
-    }
-
-    public void OpenCredits()
-    {
-        SceneManager.LoadScene("Credits");
+        foreach (var applier in appliers)
+        {
+            applier.ApplyLanguage();
+        }
     }
 }

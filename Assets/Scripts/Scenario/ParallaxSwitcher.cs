@@ -10,6 +10,7 @@ public class ParallaxSwitcher : MonoBehaviour
     public bool startWithSetA = true;
 
     private bool usingSetA;
+    private bool hasSwitched = false;
 
     void Start()
     {
@@ -22,38 +23,47 @@ public class ParallaxSwitcher : MonoBehaviour
     // 🔁 Ativa conjunto A
     public void ActivateSetA()
     {
-        SetActive(parallaxSetA, true);
-        SetActive(parallaxSetB, false);
+        SetVisible(parallaxSetA, true);
+        SetVisible(parallaxSetB, false);
         usingSetA = true;
     }
 
     // 🔁 Ativa conjunto B
     public void ActivateSetB()
     {
-        SetActive(parallaxSetA, false);
-        SetActive(parallaxSetB, true);
+        SetVisible(parallaxSetA, false);
+        SetVisible(parallaxSetB, true);
         usingSetA = false;
     }
 
-    // 🔧 Liga/desliga objetos
-    private void SetActive(GameObject[] set, bool value)
+    // 👁️ Torna visível/invisível (inclui filhos)
+    private void SetVisible(GameObject[] set, bool value)
     {
         foreach (GameObject obj in set)
         {
             if (obj != null)
-                obj.SetActive(value);
+            {
+                SpriteRenderer[] renderers = obj.GetComponentsInChildren<SpriteRenderer>();
+
+                foreach (SpriteRenderer sr in renderers)
+                {
+                    sr.enabled = value;
+                }
+            }
         }
     }
 
-    // 🎯 Trigger automático
+    // 🎯 Trigger (executa só uma vez)
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !hasSwitched)
         {
             if (usingSetA)
                 ActivateSetB();
             else
                 ActivateSetA();
+
+            hasSwitched = true;
         }
     }
 }
