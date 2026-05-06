@@ -16,15 +16,18 @@ public class CameraFollowOBJECT : MonoBehaviour
 
     private void Awake()
     {
-        player = playerTransform.GetComponent<PlayerMovement>();
-        facingRight = player.facingRight;
+        if (playerTransform != null)
+        {
+            player = playerTransform.GetComponent<PlayerMovement>();
+            facingRight = player.facingRight;
+        }
     }
 
     private void LateUpdate()
     {
         if (playerTransform == null) return;
 
-        // 🔥 primeira vez: teleporta instantaneamente
+        // primeira vez: snap instantâneo
         if (!hasInitialized)
         {
             transform.position = playerTransform.position;
@@ -32,7 +35,15 @@ public class CameraFollowOBJECT : MonoBehaviour
             return;
         }
 
-        // depois segue normalmente
+        // follow normal
+        transform.position = playerTransform.position;
+    }
+
+    // 🔥 FUNÇÃO NOVA: força teleport da câmera
+    public void SnapToPlayer()
+    {
+        if (playerTransform == null) return;
+
         transform.position = playerTransform.position;
     }
 

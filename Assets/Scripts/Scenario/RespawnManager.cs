@@ -32,14 +32,13 @@ public class RespawnManager : MonoBehaviour
     {
         GameObject player = null;
 
-        // 🔥 espera até o player existir
+        // espera o player spawnar
         while (player == null)
         {
             player = GameObject.FindWithTag("Player");
             yield return null;
         }
 
-        // 🔥 se ainda não tiver checkpoint, usa o starting point depois
         if (savedRespawnPosition == null)
             yield break;
 
@@ -53,6 +52,14 @@ public class RespawnManager : MonoBehaviour
         else
         {
             player.transform.position = savedRespawnPosition.Value;
+        }
+
+        // 🔥 força a câmera a teleportar pro player
+        CameraFollowOBJECT cam = FindFirstObjectByType<CameraFollowOBJECT>();
+
+        if (cam != null)
+        {
+            cam.SnapToPlayer();
         }
     }
 
