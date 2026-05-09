@@ -4,13 +4,16 @@ public class RespawnPoint : MonoBehaviour
 {
     public bool isStartingPoint = false;
 
+    [Header("Respawn Reference")]
+    [SerializeField] private Transform respawnPoint;
+
     void Start()
     {
         if (isStartingPoint)
         {
             if (RespawnManager.savedRespawnPosition == null)
             {
-                RespawnManager.Instance.SetRespawnPoint(transform);
+                RespawnManager.Instance.SetRespawnPoint(respawnPoint);
             }
         }
     }
@@ -19,7 +22,7 @@ public class RespawnPoint : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            RespawnManager.Instance.SetRespawnPoint(transform);
+            RespawnManager.Instance.SetRespawnPoint(respawnPoint);
         }
     }
 }

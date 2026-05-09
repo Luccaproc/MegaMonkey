@@ -22,4 +22,12 @@ public class MainMenu : MonoBehaviour
     {
         Application.Quit();
     }
+    public void Info()
+    {
+        SceneManager.LoadSceneAsync(4);
+    }
+    public void Menu()
+    {
+        SceneManager.LoadSceneAsync(0);
+    }
 }
