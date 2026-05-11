@@ -11,7 +11,7 @@ public class PauseMenu : MonoBehaviour
     public GameObject firstButton;
 
     private PlayerControls playerControls;
-    private bool isPaused;
+    public bool isPaused;
 
     void Awake()
     {
@@ -60,9 +60,17 @@ public class PauseMenu : MonoBehaviour
 
     public void ResumeButton()
     {
+        PlayerMovement player = FindFirstObjectByType<PlayerMovement>();
+
+        if (player != null)
+        {
+            player.BlockJumpTemporarily(0.2f);
+        }
+
         isPaused = false;
 
         Container.SetActive(false);
+
         Time.timeScale = 1f;
     }
 

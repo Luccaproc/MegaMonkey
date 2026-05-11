@@ -61,6 +61,7 @@ public class PlayerMovement : MonoBehaviour
     private float hangTimeCounter;
     private float jumpBufferCounter;
     private bool canJump => jumpBufferCounter > 0f && hangTimeCounter > 0f;
+    private float jumpBlockTimer;
 
     [Header("Dash Variables")]
     [SerializeField] private float dashSpeed;
@@ -85,18 +86,25 @@ public class PlayerMovement : MonoBehaviour
     public float knockBackTotalTime;
     public bool knockFromRight;
 
+    [Header("Pause variables")]
+    public PauseMenu pauseMenu;
+
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         cameraFollowObject = cameraFollowGO.GetComponent<CameraFollowOBJECT>();
         fallSpeedYDampingChangeThreshold = cameraManager.fallSpeedYDampingChangeThreshold;
+        pauseMenu = FindFirstObjectByType<PauseMenu>();
     }
 
     private void Update()
     {
         timer += Time.deltaTime;
         frameCount++;
+
+        if (FindFirstObjectByType<PauseMenu>().isPaused)
+            return;
 
         if (timer >= 1f)
         {
@@ -113,7 +121,9 @@ public class PlayerMovement : MonoBehaviour
 
         horizontalDirection = playerDirection.x;
 
-        if (playerControls.Player.Jump.IsPressed() && !isDashing)
+        jumpBlockTimer -= Time.deltaTime;
+
+        if (playerControls.Player.Jump.IsPressed() && !isDashing && jumpBlockTimer <= 0f)
         {
             jumpBufferCounter = jumpBufferLength;
         }
@@ -247,16 +257,19 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        ApplyAirLinearDrag();
-        rb.linearVelocity = new Vector2(rb.linearVelocityX, 0f);
-        rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        hangTimeCounter = 0f;
-        jumpBufferCounter = 0f;
+        if (!pauseMenu.isPaused)
+        {
+            ApplyAirLinearDrag();
+            rb.linearVelocity = new Vector2(rb.linearVelocityX, 0f);
+            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            hangTimeCounter = 0f;
+            jumpBufferCounter = 0f;
 
-        jumpSound.Play();
+            jumpSound.Play();
 
-        anim.SetBool("isJumping", true);
-        anim.SetBool("isFalling", false);
+            anim.SetBool("isJumping", true);
+            anim.SetBool("isFalling", false);
+        }
     }
 
     private void FallMultiplier()
@@ -327,19 +340,22 @@ public class PlayerMovement : MonoBehaviour
 
     void Flip()
     {
-        if (facingRight)
+        if (!pauseMenu.isPaused)
         {
-            PlayFlipAnimation();
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-        }
-        else
-        {
-            PlayFlipAnimation();
-            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-        }
+            if (facingRight)
+            {
+                PlayFlipAnimation();
+                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            }
+            else
+            {
+                PlayFlipAnimation();
+                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
 
-        facingRight = !facingRight;
-        cameraFollowObject.CallTurn();
+            facingRight = !facingRight;
+            cameraFollowObject.CallTurn();
+        }
     }
 
     private void PlayFlipAnimation()
@@ -361,6 +377,11 @@ public class PlayerMovement : MonoBehaviour
         bool rightHitEnemy = Physics2D.Raycast(rightOrigin, Vector2.down, groundRaycastLenght, enemyLayer);
 
         onGround = leftHitGround || rightHitGround || leftHitEnemy || rightHitEnemy;
+    }
+
+    public void BlockJumpTemporarily(float time)
+    {
+        jumpBlockTimer = time;
     }
 
     private void OnDrawGizmos()

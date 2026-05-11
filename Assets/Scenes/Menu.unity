@@ -922,6 +922,9 @@ MonoBehaviour:
   - targetImage: {fileID: 1731392939}
     portugueseSprite: {fileID: -4143733472230448762, guid: 93e8199b4109bae48b58e3ec1b7219bd, type: 3}
     englishSprite: {fileID: -3560698593848636649, guid: 2b278950387ebad459d08141f42805a6, type: 3}
+  - targetImage: {fileID: 595175390}
+    portugueseSprite: {fileID: -5037784736474074088, guid: 2a45578ee29e99746885923e5e39034c, type: 3}
+    englishSprite: {fileID: 7951842420389674436, guid: 8bfacca306edf1f4cafb92326adcf9e1, type: 3}
 --- !u!4 &913026634
 Transform:
   m_ObjectHideFlags: 0
