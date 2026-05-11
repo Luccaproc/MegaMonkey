@@ -7,4 +7,9 @@ public class GameMenu : MonoBehaviour
     {
         gameMusic.Play();
     }
+
+    void Start()
+    {
+        Cursor.visible = false;
+    }
 }

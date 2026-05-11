@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Dash
   - Ground
+  - FirstSpawn
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - 
   - Enemy
   - Ground
-  - 
+  - Player
   - 
   - 
   - 
@@ -67,6 +68,9 @@ TagManager:
     locked: 0
   - name: Dialogo
     uniqueID: 2538493285
+    locked: 0
+  - name: Dialogo 2
+    uniqueID: 4088968281
     locked: 0
   - name: Player
     uniqueID: 1958973755

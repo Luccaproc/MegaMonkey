@@ -6,7 +6,6 @@ public class ThompDamage : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Esbarrei com o player aqui");
         if (collision.CompareTag("Player"))
         {
             PlayerMovement playerMovement = collision.GetComponent<PlayerMovement>();

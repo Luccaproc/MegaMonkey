@@ -101,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
         if (timer >= 1f)
         {
             float fps = frameCount / timer;
-            Debug.Log("FPS médio: " + Mathf.Round(fps));
+            //Debug.Log("FPS médio: " + Mathf.Round(fps));
             timer = 0f;
             frameCount = 0;
         }
@@ -329,10 +329,12 @@ public class PlayerMovement : MonoBehaviour
     {
         if (facingRight)
         {
+            PlayFlipAnimation();
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
         else
         {
+            PlayFlipAnimation();
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
 
@@ -340,6 +342,10 @@ public class PlayerMovement : MonoBehaviour
         cameraFollowObject.CallTurn();
     }
 
+    private void PlayFlipAnimation()
+    {
+        anim.SetTrigger("Flip");
+    }
     private void CheckColissions()
     {
         float halfWidth = GetComponent<Collider2D>().bounds.extents.x;
